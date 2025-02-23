@@ -596,7 +596,16 @@
 				"D:/Holy-Sheep/Holy-Sheep/Content/HolySheep/BTTask_MoveRandomLocation.uasset",
 				"D:/Holy-Sheep/Holy-Sheep/Content/HolySheep/Actors/BTTask_MoveRandomLocation.uasset",
 				"D:/Holy-Sheep/Holy-Sheep/Content/HolySheep/Actors/BaseSheep/BTTask_MoveRandomLocation.uasset",
-				"D:/Holy-Sheep/Holy-Sheep/Content/HolySheep/Actors/BaseSheep/AI/BTTask_MoveRandomLocation.uasset"
+				"D:/Holy-Sheep/Holy-Sheep/Content/HolySheep/Actors/BaseSheep/AI/BTTask_MoveRandomLocation.uasset",
+				"D:/Holy-Sheep/Holy-Sheep/Content/HolySheep/Chars/BaseSheep/AI/BTTask_MoveRandomLocation.uasset",
+				"D:/Holy-Sheep/Holy-Sheep/Content/HolySheep/Characters/BaseSheep/AI/BTTask_MoveRandomLocation.uasset",
+				"D:/Holy-Sheep/Holy-Sheep/Content/HolySheep/Characters/BP_ThirdPersonCharacter.uasset",
+				"D:/Holy-Sheep/Holy-Sheep/Content/HolySheep/Characters/PlayerChar/BP_ThirdPersonCharacter.uasset",
+				"D:/Holy-Sheep/Holy-Sheep/Content/HolySheep/Characters/Sheep/AI/BTTask_MoveRandomLocation.uasset",
+				"D:/Holy-Sheep/Holy-Sheep/Content/HolySheep/Characters/Sheep/Base/AI/BTTask_MoveRandomLocation.uasset",
+				"D:/Holy-Sheep/Holy-Sheep/Content/HolySheep/Input/IMC_Player.uasset",
+				"D:/Holy-Sheep/Holy-Sheep/Content/HolySheep/Input/Actions/IA_ChangeCamera.uasset",
+				"D:/Holy-Sheep/Holy-Sheep/Content/HolySheep/Characters/Player/BP_ThirdPersonCharacter.uasset"
 			]
 		}
 	]
