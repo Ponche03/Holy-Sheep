@@ -1323,3 +1323,548 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2025.03.21-05.14.24:019][560]LogFileHelpers: InternalPromptForCheckoutAndSave took 286 ms (total: 425 ms)
 [2025.03.21-05.14.24:023][560]AssetCheck: New page: Asset Save: BattleSheep
 [2025.03.21-05.14.24:023][560]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/BattleSheep.BattleSheep
+[2025.03.21-05.15.12:332][987]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.03.21-05.15.20:959][899]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Base'.'
+[2025.03.21-05.15.20:959][899]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Mask'.'
+[2025.03.21-05.15.22:939][ 53]LogLinker: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_Timer.uasset: Failed to load '/Game/OdV/Blueprints/GameMode/GM_StealthGameplay': Can't find file.
+[2025.03.21-05.15.22:940][ 53]LogLinker: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_Timer.uasset: VerifyImport: Failed to load package for import object 'Package /Game/OdV/Blueprints/GameMode/GM_StealthGameplay'
+[2025.03.21-05.15.22:950][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_Timer.uasset: [Compiler] In use pin  <Unnamed>  no longer exists on node  Captured . Please refresh node or break links to remove pin.
+[2025.03.21-05.15.22:951][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_Timer.uasset: [Compiler] In use pin  Target  no longer exists on node  Captured . Please refresh node or break links to remove pin.
+[2025.03.21-05.15.22:951][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_Timer.uasset: [Compiler] Could not find a function named "Captured" in 'WB_Timer'.
+Make sure 'WB_Timer' has been compiled for  Captured
+[2025.03.21-05.15.22:951][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_Timer.uasset: [Compiler] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2025.03.21-05.15.22:951][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_Timer.uasset: [Compiler] In use pin  As GM Stealth Gameplay  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2025.03.21-05.15.22:952][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_Timer.uasset: [Compiler] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2025.03.21-05.15.22:970][ 53]LogLinker: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: Failed to load '/Game/OdV/Blueprints/PlayerCharacter/BP_PlayerCharacter': Can't find file.
+[2025.03.21-05.15.22:970][ 53]LogLinker: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: VerifyImport: Failed to load package for import object 'Package /Game/OdV/Blueprints/PlayerCharacter/BP_PlayerCharacter'
+[2025.03.21-05.15.22:970][ 53]LogLinker: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: Failed to load '/Game/OdV/Blueprints/Saves/BP_SaveGame': Can't find file.
+[2025.03.21-05.15.22:970][ 53]LogLinker: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: VerifyImport: Failed to load package for import object 'Package /Game/OdV/Blueprints/Saves/BP_SaveGame'
+[2025.03.21-05.15.22:971][ 53]LogLinker: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: Failed to load '/Game/OdV/UI/WB_Timer_MOVEDFORMIGRATION_2': Can't find file.
+[2025.03.21-05.15.22:971][ 53]LogLinker: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: VerifyImport: Failed to load package for import object 'Package /Game/OdV/UI/WB_Timer_MOVEDFORMIGRATION_2'
+[2025.03.21-05.15.22:989][ 53]LogBlueprint: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Could not find a variable named "HP" in 'WB_PauseMenu'.
+Make sure 'WB_PauseMenu' has been compiled for  Get HP
+[2025.03.21-05.15.22:989][ 53]LogBlueprint: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Could not find a variable named "CurrentHP" in 'WB_PauseMenu'.
+Make sure 'WB_PauseMenu' has been compiled for  Set CurrentHP
+[2025.03.21-05.15.22:990][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Can't connect pins  Target  and  Return Value : Object Reference is not compatible with Save Game Object Reference.
+[2025.03.21-05.15.22:990][ 53]LogBlueprint: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Could not find a variable named "HP" in 'WB_PauseMenu'.
+Make sure 'WB_PauseMenu' has been compiled for  Set HP
+[2025.03.21-05.15.22:990][ 53]LogBlueprint: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Could not find a variable named "CurrentHP" in 'WB_PauseMenu'.
+Make sure 'WB_PauseMenu' has been compiled for  Get CurrentHP
+[2025.03.21-05.15.22:990][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Can't connect pins  Target  and  Return Value : Object Reference is not compatible with Save Game Object Reference.
+[2025.03.21-05.15.22:990][ 53]LogBlueprint: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Could not find a variable named "HP" in 'WB_PauseMenu'.
+Make sure 'WB_PauseMenu' has been compiled for  Set HP
+[2025.03.21-05.15.22:990][ 53]LogBlueprint: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Could not find a variable named "CurrentHP" in 'WB_PauseMenu'.
+Make sure 'WB_PauseMenu' has been compiled for  Get CurrentHP
+[2025.03.21-05.15.22:990][ 53]LogBlueprint: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Could not find a variable named "minutes" in 'WB_PauseMenu'.
+Make sure 'WB_PauseMenu' has been compiled for  Get minutes
+[2025.03.21-05.15.22:990][ 53]LogBlueprint: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Could not find a variable named "seconds" in 'WB_PauseMenu'.
+Make sure 'WB_PauseMenu' has been compiled for  Get seconds
+[2025.03.21-05.15.22:990][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] In use pin  Timer Widget  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2025.03.21-05.15.22:990][ 53]LogBlueprint: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Could not find a variable named "TimerWidget" in 'WB_PauseMenu'.
+Make sure 'WB_PauseMenu' has been compiled for  Get
+[2025.03.21-05.15.22:990][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] In use pin  Timer Widget  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2025.03.21-05.15.22:990][ 53]LogBlueprint: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Could not find a variable named "TimerWidget" in 'WB_PauseMenu'.
+Make sure 'WB_PauseMenu' has been compiled for  Get
+[2025.03.21-05.15.22:990][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Can't connect pins  Target  and  Return Value : Object Reference is not compatible with Save Game Object Reference.
+[2025.03.21-05.15.22:990][ 53]LogBlueprint: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Could not find a variable named "minutes" in 'WB_PauseMenu'.
+Make sure 'WB_PauseMenu' has been compiled for  Set minutes
+[2025.03.21-05.15.22:991][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Can't connect pins  Target  and  Return Value : Object Reference is not compatible with Save Game Object Reference.
+[2025.03.21-05.15.22:991][ 53]LogBlueprint: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Could not find a variable named "seconds" in 'WB_PauseMenu'.
+Make sure 'WB_PauseMenu' has been compiled for  Set seconds
+[2025.03.21-05.15.22:991][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Can't connect pins  Target  and  Return Value : Object Reference is not compatible with Save Game Object Reference.
+[2025.03.21-05.15.22:991][ 53]LogBlueprint: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Could not find a variable named "minutes" in 'WB_PauseMenu'.
+Make sure 'WB_PauseMenu' has been compiled for  Set minutes
+[2025.03.21-05.15.22:991][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Can't connect pins  Target  and  Return Value : Object Reference is not compatible with Save Game Object Reference.
+[2025.03.21-05.15.22:991][ 53]LogBlueprint: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Could not find a variable named "seconds" in 'WB_PauseMenu'.
+Make sure 'WB_PauseMenu' has been compiled for  Set seconds
+[2025.03.21-05.15.22:991][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] In use pin  Timer Widget  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2025.03.21-05.15.22:991][ 53]LogBlueprint: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Could not find a variable named "TimerWidget" in 'WB_PauseMenu'.
+Make sure 'WB_PauseMenu' has been compiled for  Get
+[2025.03.21-05.15.22:991][ 53]LogBlueprint: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Could not find a variable named "ammoCount" in 'WB_PauseMenu'.
+Make sure 'WB_PauseMenu' has been compiled for  Get ammoCount
+[2025.03.21-05.15.22:991][ 53]LogBlueprint: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Could not find a variable named "GunAmmoCount" in 'WB_PauseMenu'.
+Make sure 'WB_PauseMenu' has been compiled for  Set GunAmmoCount
+[2025.03.21-05.15.22:991][ 53]LogBlueprint: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Could not find a variable named "GunAmmoCount" in 'WB_PauseMenu'.
+Make sure 'WB_PauseMenu' has been compiled for  Get GunAmmoCount
+[2025.03.21-05.15.22:991][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Can't connect pins  Target  and  Return Value : Object Reference is not compatible with Save Game Object Reference.
+[2025.03.21-05.15.22:991][ 53]LogBlueprint: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Could not find a variable named "ammoCount" in 'WB_PauseMenu'.
+Make sure 'WB_PauseMenu' has been compiled for  Set ammoCount
+[2025.03.21-05.15.22:991][ 53]LogBlueprint: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Could not find a variable named "GunAmmoCount" in 'WB_PauseMenu'.
+Make sure 'WB_PauseMenu' has been compiled for  Get GunAmmoCount
+[2025.03.21-05.15.22:992][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Can't connect pins  Target  and  Return Value : Object Reference is not compatible with Save Game Object Reference.
+[2025.03.21-05.15.22:992][ 53]LogBlueprint: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Could not find a variable named "ammoCount" in 'WB_PauseMenu'.
+Make sure 'WB_PauseMenu' has been compiled for  Set ammoCount
+[2025.03.21-05.15.22:992][ 53]LogBlueprint: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Could not find a variable named "hasStealableObject" in 'WB_PauseMenu'.
+Make sure 'WB_PauseMenu' has been compiled for  Set hasStealableObject
+[2025.03.21-05.15.22:992][ 53]LogBlueprint: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Could not find a variable named "hasPickedUpStealableObject" in 'WB_PauseMenu'.
+Make sure 'WB_PauseMenu' has been compiled for  Get hasPickedUpStealableObject
+[2025.03.21-05.15.22:992][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2025.03.21-05.15.22:992][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2025.03.21-05.15.22:992][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] In use pin  As BP Player Character  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2025.03.21-05.15.22:992][ 53]LogBlueprint: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Could not find a variable named "playerPos" in 'WB_PauseMenu'.
+Make sure 'WB_PauseMenu' has been compiled for  Get playerPos
+[2025.03.21-05.15.22:992][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2025.03.21-05.15.22:992][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] In use pin  As BP Save Game  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2025.03.21-05.15.22:992][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2025.03.21-05.15.22:992][ 53]LogBlueprint: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Could not find a variable named "hasStealableObject" in 'WB_PauseMenu'.
+Make sure 'WB_PauseMenu' has been compiled for  Get hasStealableObject
+[2025.03.21-05.15.22:993][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Can't connect pins  Target  and  Return Value : Object Reference is not compatible with Save Game Object Reference.
+[2025.03.21-05.15.22:993][ 53]LogBlueprint: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Could not find a variable named "hasPickedUpStealableObject" in 'WB_PauseMenu'.
+Make sure 'WB_PauseMenu' has been compiled for  Set hasPickedUpStealableObject
+[2025.03.21-05.15.22:993][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2025.03.21-05.15.22:993][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2025.03.21-05.15.22:993][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] In use pin  As BP Player Character  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2025.03.21-05.15.22:993][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Can't connect pins  Target  and  Return Value : Object Reference is not compatible with Save Game Object Reference.
+[2025.03.21-05.15.22:993][ 53]LogBlueprint: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Could not find a variable named "playerPos" in 'WB_PauseMenu'.
+Make sure 'WB_PauseMenu' has been compiled for  Set playerPos
+[2025.03.21-05.15.22:993][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Can't connect pins  Return Value  and  Target : Save Game Object Reference is not compatible with Object Reference.
+[2025.03.21-05.15.22:993][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2025.03.21-05.15.22:994][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2025.03.21-05.15.22:994][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2025.03.21-05.15.22:994][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2025.03.21-05.15.22:994][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2025.03.21-05.15.22:994][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2025.03.21-05.15.22:994][ 53]LogBlueprint: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Could not find a variable named "hasStealableObject" in 'WB_PauseMenu'.
+Make sure 'WB_PauseMenu' has been compiled for  Get hasStealableObject
+[2025.03.21-05.15.22:994][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Can't connect pins  Target  and  Return Value : Object Reference is not compatible with Save Game Object Reference.
+[2025.03.21-05.15.22:994][ 53]LogBlueprint: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Could not find a variable named "hasPickedUpStealableObject" in 'WB_PauseMenu'.
+Make sure 'WB_PauseMenu' has been compiled for  Set hasPickedUpStealableObject
+[2025.03.21-05.15.22:994][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2025.03.21-05.15.22:994][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2025.03.21-05.15.22:994][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] In use pin  As BP Player Character  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2025.03.21-05.15.22:995][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Can't connect pins  Target  and  Return Value : Object Reference is not compatible with Save Game Object Reference.
+[2025.03.21-05.15.22:995][ 53]LogBlueprint: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Could not find a variable named "playerPos" in 'WB_PauseMenu'.
+Make sure 'WB_PauseMenu' has been compiled for  Set playerPos
+[2025.03.21-05.15.22:995][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Can't connect pins  Return Value  and  Target : Save Game Object Reference is not compatible with Object Reference.
+[2025.03.21-05.15.22:995][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2025.03.21-05.15.22:995][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2025.03.21-05.15.22:995][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2025.03.21-05.15.22:995][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2025.03.21-05.15.22:995][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2025.03.21-05.15.22:995][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Invalid pin connection from ' Return Value ' to ' Target '. You may have changed the type after the connections were made.
+[2025.03.21-05.15.22:996][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] In use pin  <Unnamed>  no longer exists on node  Resume . Please refresh node or break links to remove pin.
+[2025.03.21-05.15.22:996][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] In use pin  Target  no longer exists on node  Resume . Please refresh node or break links to remove pin.
+[2025.03.21-05.15.22:996][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Could not find a function named "Resume" in 'WB_PauseMenu'.
+Make sure 'WB_PauseMenu' has been compiled for  Resume
+[2025.03.21-05.15.22:996][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2025.03.21-05.15.22:996][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] In use pin  As BP Player Character  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2025.03.21-05.15.22:996][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2025.03.21-05.15.22:996][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] The property associated with  Timer Widget  could not be found in '/Game/OdV/UI/WB_PauseMenu.WB_PauseMenu_C'
+[2025.03.21-05.15.22:996][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] The property associated with  Current HP  could not be found in '/Game/OdV/UI/WB_PauseMenu.WB_PauseMenu_C'
+[2025.03.21-05.15.22:996][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] The property associated with  Timer Widget  could not be found in '/Game/OdV/UI/WB_PauseMenu.WB_PauseMenu_C'
+[2025.03.21-05.15.22:996][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] The property associated with  HP  could not be found in '/Game/OdV/UI/WB_PauseMenu.WB_PauseMenu_C'
+[2025.03.21-05.15.22:996][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] The property associated with  Seconds  could not be found in '/Game/OdV/UI/WB_PauseMenu.WB_PauseMenu_C'
+[2025.03.21-05.15.22:996][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] The property associated with  Minutes  could not be found in '/Game/OdV/UI/WB_PauseMenu.WB_PauseMenu_C'
+[2025.03.21-05.15.22:998][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] The property associated with  Gun Ammo Count  could not be found in '/Game/OdV/UI/WB_PauseMenu.WB_PauseMenu_C'
+[2025.03.21-05.15.22:998][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] The property associated with  Has Stealable Object  could not be found in '/Game/OdV/UI/WB_PauseMenu.WB_PauseMenu_C'
+[2025.03.21-05.15.22:998][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] The property associated with  Ammo Count  could not be found in '/Game/OdV/UI/WB_PauseMenu.WB_PauseMenu_C'
+[2025.03.21-05.15.22:998][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] The property associated with  Has Picked Up Stealable Object  could not be found in '/Game/OdV/UI/WB_PauseMenu.WB_PauseMenu_C'
+[2025.03.21-05.15.22:998][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] The property associated with  Player Pos  could not be found in '/Game/OdV/UI/WB_PauseMenu.WB_PauseMenu_C'
+[2025.03.21-05.15.22:998][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] The property associated with  Current HP  could not be found in '/Game/OdV/UI/WB_PauseMenu.WB_PauseMenu_C'
+[2025.03.21-05.15.22:998][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] The property associated with  HP  could not be found in '/Game/OdV/UI/WB_PauseMenu.WB_PauseMenu_C'
+[2025.03.21-05.15.22:998][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] The property associated with  HP  could not be found in '/Game/OdV/UI/WB_PauseMenu.WB_PauseMenu_C'
+[2025.03.21-05.15.22:998][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] The property associated with  Minutes  could not be found in '/Game/OdV/UI/WB_PauseMenu.WB_PauseMenu_C'
+[2025.03.21-05.15.22:998][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] The property associated with  Current HP  could not be found in '/Game/OdV/UI/WB_PauseMenu.WB_PauseMenu_C'
+[2025.03.21-05.15.22:998][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] The property associated with  Seconds  could not be found in '/Game/OdV/UI/WB_PauseMenu.WB_PauseMenu_C'
+[2025.03.21-05.15.22:998][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] The property associated with  Ammo Count  could not be found in '/Game/OdV/UI/WB_PauseMenu.WB_PauseMenu_C'
+[2025.03.21-05.15.22:998][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] The property associated with  Gun Ammo Count  could not be found in '/Game/OdV/UI/WB_PauseMenu.WB_PauseMenu_C'
+[2025.03.21-05.15.22:998][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] The property associated with  Has Picked Up Stealable Object  could not be found in '/Game/OdV/UI/WB_PauseMenu.WB_PauseMenu_C'
+[2025.03.21-05.15.22:998][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] The property associated with  Player Pos  could not be found in '/Game/OdV/UI/WB_PauseMenu.WB_PauseMenu_C'
+[2025.03.21-05.15.22:998][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] The property associated with  Has Stealable Object  could not be found in '/Game/OdV/UI/WB_PauseMenu.WB_PauseMenu_C'
+[2025.03.21-05.15.22:998][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] The property associated with  Timer Widget  could not be found in '/Game/OdV/UI/WB_PauseMenu.WB_PauseMenu_C'
+[2025.03.21-05.15.22:999][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] The property associated with  Gun Ammo Count  could not be found in '/Game/OdV/UI/WB_PauseMenu.WB_PauseMenu_C'
+[2025.03.21-05.15.22:999][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] The property associated with  Ammo Count  could not be found in '/Game/OdV/UI/WB_PauseMenu.WB_PauseMenu_C'
+[2025.03.21-05.15.22:999][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] The property associated with  Minutes  could not be found in '/Game/OdV/UI/WB_PauseMenu.WB_PauseMenu_C'
+[2025.03.21-05.15.22:999][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] The property associated with  Has Stealable Object  could not be found in '/Game/OdV/UI/WB_PauseMenu.WB_PauseMenu_C'
+[2025.03.21-05.15.22:999][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] The property associated with  Seconds  could not be found in '/Game/OdV/UI/WB_PauseMenu.WB_PauseMenu_C'
+[2025.03.21-05.15.22:999][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] The property associated with  Has Picked Up Stealable Object  could not be found in '/Game/OdV/UI/WB_PauseMenu.WB_PauseMenu_C'
+[2025.03.21-05.15.22:999][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_PauseMenu.uasset: [Compiler] The property associated with  Player Pos  could not be found in '/Game/OdV/UI/WB_PauseMenu.WB_PauseMenu_C'
+[2025.03.21-05.15.23:006][ 53]LogLinker: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_OptionsMenu.uasset: Failed to load '/Game/OdV/Blueprints/Saves/BP_SaveScore': Can't find file.
+[2025.03.21-05.15.23:006][ 53]LogLinker: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_OptionsMenu.uasset: VerifyImport: Failed to load package for import object 'Package /Game/OdV/Blueprints/Saves/BP_SaveScore'
+[2025.03.21-05.15.23:036][ 53]LogBlueprint: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_MainMenu.uasset: [Compiler] Could not find a variable named "Scores" in 'WB_MainMenu'.
+Make sure 'WB_MainMenu' has been compiled for  Get Scores
+[2025.03.21-05.15.23:036][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_MainMenu.uasset: [Compiler] In use pin  BP Save Score  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2025.03.21-05.15.23:036][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_MainMenu.uasset: [Compiler] In use pin  BP Save Score  no longer exists on node  Set . Please refresh node or break links to remove pin.
+[2025.03.21-05.15.23:036][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_MainMenu.uasset: [Compiler] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2025.03.21-05.15.23:036][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_MainMenu.uasset: [Compiler] In use pin  As BP Save Score  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2025.03.21-05.15.23:036][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_MainMenu.uasset: [Compiler] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2025.03.21-05.15.23:049][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_MainMenu.uasset: [Compiler] The property associated with  Scores  could not be found in '/Game/OdV/UI/WB_MainMenu.WB_MainMenu_C'
+[2025.03.21-05.15.23:073][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_LifeBar.uasset: [Compiler] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2025.03.21-05.15.23:073][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_LifeBar.uasset: [Compiler] In use pin  As BP Player Character  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2025.03.21-05.15.23:073][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_LifeBar.uasset: [Compiler] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2025.03.21-05.15.23:073][ 53]LogBlueprint: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_LifeBar.uasset: [Compiler] Could not find a variable named "CurrentHP" in 'WB_LifeBar'.
+Make sure 'WB_LifeBar' has been compiled for  Get CurrentHP
+[2025.03.21-05.15.23:073][ 53]LogBlueprint: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_LifeBar.uasset: [Compiler] Could not find a variable named "MaxHP" in 'WB_LifeBar'.
+Make sure 'WB_LifeBar' has been compiled for  Get MaxHP
+[2025.03.21-05.15.23:086][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_CurrentWeapon.uasset: [Compiler] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2025.03.21-05.15.23:086][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_CurrentWeapon.uasset: [Compiler] In use pin  As BP Player Character  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2025.03.21-05.15.23:086][ 53]LogBlueprint: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_CurrentWeapon.uasset: [Compiler] Could not find a variable named "hasGunEquipped" in 'WB_CurrentWeapon'.
+Make sure 'WB_CurrentWeapon' has been compiled for  Get hasGunEquipped
+[2025.03.21-05.15.23:086][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_CurrentWeapon.uasset: [Compiler] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2025.03.21-05.15.23:089][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_CurrentWeapon.uasset: [Compiler] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2025.03.21-05.15.23:089][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_CurrentWeapon.uasset: [Compiler] In use pin  As BP Player Character  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2025.03.21-05.15.23:089][ 53]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_CurrentWeapon.uasset: [Compiler] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2025.03.21-05.15.23:089][ 53]LogBlueprint: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_CurrentWeapon.uasset: [Compiler] Could not find a variable named "hasGunEquipped" in 'WB_CurrentWeapon'.
+Make sure 'WB_CurrentWeapon' has been compiled for  Get hasGunEquipped
+[2025.03.21-05.15.23:089][ 53]LogBlueprint: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_CurrentWeapon.uasset: [Compiler] Could not find a variable named "IsRechargingTaser" in 'WB_CurrentWeapon'.
+Make sure 'WB_CurrentWeapon' has been compiled for  Get IsRechargingTaser
+[2025.03.21-05.15.23:089][ 53]LogBlueprint: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\OdV\UI\WB_CurrentWeapon.uasset: [Compiler] Could not find a variable named "GunAmmoCount" in 'WB_CurrentWeapon'.
+Make sure 'WB_CurrentWeapon' has been compiled for  Get GunAmmoCount
+[2025.03.21-05.15.23:178][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_Timer.WB_Timer_C' ref from Metadata '/Game/OdV/UI/WB_Timer.PackageMetaData'
+[2025.03.21-05.15.23:178][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_Timer.WB_Timer:EventGraph.K2Node_Event_0' ref from Metadata '/Game/OdV/UI/WB_Timer.PackageMetaData'
+[2025.03.21-05.15.23:178][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_Timer.WB_Timer:EventGraph.K2Node_Event_1' ref from Metadata '/Game/OdV/UI/WB_Timer.PackageMetaData'
+[2025.03.21-05.15.23:178][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_Timer.WB_Timer:EventGraph.K2Node_Event_2' ref from Metadata '/Game/OdV/UI/WB_Timer.PackageMetaData'
+[2025.03.21-05.15.23:178][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_Timer.WB_Timer:GetText.K2Node_FunctionResult_0' ref from Metadata '/Game/OdV/UI/WB_Timer.PackageMetaData'
+[2025.03.21-05.15.23:178][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_Timer.WB_Timer:GetText.K2Node_FunctionEntry_0' ref from Metadata '/Game/OdV/UI/WB_Timer.PackageMetaData'
+[2025.03.21-05.15.23:178][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_Timer.SKEL_WB_Timer_C:PreConstruct' ref from Metadata '/Game/OdV/UI/WB_Timer.PackageMetaData'
+[2025.03.21-05.15.23:178][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_Timer.SKEL_WB_Timer_C:Construct' ref from Metadata '/Game/OdV/UI/WB_Timer.PackageMetaData'
+[2025.03.21-05.15.23:179][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_Timer.SKEL_WB_Timer_C:Tick' ref from Metadata '/Game/OdV/UI/WB_Timer.PackageMetaData'
+[2025.03.21-05.15.23:179][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_Timer.SKEL_WB_Timer_C:Tick Timer' ref from Metadata '/Game/OdV/UI/WB_Timer.PackageMetaData'
+[2025.03.21-05.15.23:179][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_Timer.SKEL_WB_Timer_C' ref from Metadata '/Game/OdV/UI/WB_Timer.PackageMetaData'
+[2025.03.21-05.15.23:179][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_Timer.WB_Timer_C:Construct' ref from Metadata '/Game/OdV/UI/WB_Timer.PackageMetaData'
+[2025.03.21-05.15.23:181][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_TakedownPrompt.WB_TakedownPrompt_C' ref from Metadata '/Game/OdV/UI/WB_TakedownPrompt.PackageMetaData'
+[2025.03.21-05.15.23:181][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_TakedownPrompt.WB_TakedownPrompt:EventGraph.K2Node_Event_0' ref from Metadata '/Game/OdV/UI/WB_TakedownPrompt.PackageMetaData'
+[2025.03.21-05.15.23:181][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_TakedownPrompt.WB_TakedownPrompt:EventGraph.K2Node_Event_1' ref from Metadata '/Game/OdV/UI/WB_TakedownPrompt.PackageMetaData'
+[2025.03.21-05.15.23:181][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_TakedownPrompt.WB_TakedownPrompt:EventGraph.K2Node_Event_2' ref from Metadata '/Game/OdV/UI/WB_TakedownPrompt.PackageMetaData'
+[2025.03.21-05.15.23:181][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_TakedownPrompt.SKEL_WB_TakedownPrompt_C:PreConstruct' ref from Metadata '/Game/OdV/UI/WB_TakedownPrompt.PackageMetaData'
+[2025.03.21-05.15.23:181][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_TakedownPrompt.SKEL_WB_TakedownPrompt_C:Construct' ref from Metadata '/Game/OdV/UI/WB_TakedownPrompt.PackageMetaData'
+[2025.03.21-05.15.23:181][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_TakedownPrompt.SKEL_WB_TakedownPrompt_C:Tick' ref from Metadata '/Game/OdV/UI/WB_TakedownPrompt.PackageMetaData'
+[2025.03.21-05.15.23:181][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_TakedownPrompt.SKEL_WB_TakedownPrompt_C' ref from Metadata '/Game/OdV/UI/WB_TakedownPrompt.PackageMetaData'
+[2025.03.21-05.15.23:182][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_ScoreSlot.WB_ScoreSlot_C' ref from Metadata '/Game/OdV/UI/WB_ScoreSlot.PackageMetaData'
+[2025.03.21-05.15.23:182][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_ScoreSlot.WB_ScoreSlot:EventGraph.K2Node_Event_0' ref from Metadata '/Game/OdV/UI/WB_ScoreSlot.PackageMetaData'
+[2025.03.21-05.15.23:182][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_ScoreSlot.WB_ScoreSlot:EventGraph.K2Node_Event_1' ref from Metadata '/Game/OdV/UI/WB_ScoreSlot.PackageMetaData'
+[2025.03.21-05.15.23:182][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_ScoreSlot.WB_ScoreSlot:EventGraph.K2Node_Event_2' ref from Metadata '/Game/OdV/UI/WB_ScoreSlot.PackageMetaData'
+[2025.03.21-05.15.23:182][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_ScoreSlot.SKEL_WB_ScoreSlot_C:PreConstruct' ref from Metadata '/Game/OdV/UI/WB_ScoreSlot.PackageMetaData'
+[2025.03.21-05.15.23:182][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_ScoreSlot.SKEL_WB_ScoreSlot_C:Construct' ref from Metadata '/Game/OdV/UI/WB_ScoreSlot.PackageMetaData'
+[2025.03.21-05.15.23:182][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_ScoreSlot.SKEL_WB_ScoreSlot_C:Tick' ref from Metadata '/Game/OdV/UI/WB_ScoreSlot.PackageMetaData'
+[2025.03.21-05.15.23:182][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_ScoreSlot.SKEL_WB_ScoreSlot_C' ref from Metadata '/Game/OdV/UI/WB_ScoreSlot.PackageMetaData'
+[2025.03.21-05.15.23:183][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_PauseMenu.WB_PauseMenu_C' ref from Metadata '/Game/OdV/UI/WB_PauseMenu.PackageMetaData'
+[2025.03.21-05.15.23:183][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_PauseMenu.WB_PauseMenu:EventGraph.K2Node_Event_0' ref from Metadata '/Game/OdV/UI/WB_PauseMenu.PackageMetaData'
+[2025.03.21-05.15.23:183][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_PauseMenu.WB_PauseMenu:EventGraph.K2Node_Event_1' ref from Metadata '/Game/OdV/UI/WB_PauseMenu.PackageMetaData'
+[2025.03.21-05.15.23:183][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_PauseMenu.WB_PauseMenu:EventGraph.K2Node_Event_2' ref from Metadata '/Game/OdV/UI/WB_PauseMenu.PackageMetaData'
+[2025.03.21-05.15.23:183][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_PauseMenu.SKEL_WB_PauseMenu_C:PreConstruct' ref from Metadata '/Game/OdV/UI/WB_PauseMenu.PackageMetaData'
+[2025.03.21-05.15.23:183][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_PauseMenu.SKEL_WB_PauseMenu_C:Construct' ref from Metadata '/Game/OdV/UI/WB_PauseMenu.PackageMetaData'
+[2025.03.21-05.15.23:183][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_PauseMenu.SKEL_WB_PauseMenu_C:Tick' ref from Metadata '/Game/OdV/UI/WB_PauseMenu.PackageMetaData'
+[2025.03.21-05.15.23:183][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_PauseMenu.SKEL_WB_PauseMenu_C:BndEvt__WB_PauseMenu_Resume_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/OdV/UI/WB_PauseMenu.PackageMetaData'
+[2025.03.21-05.15.23:183][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_PauseMenu.SKEL_WB_PauseMenu_C:BndEvt__WB_PauseMenu_Resume_K2Node_ComponentBoundEvent_1_OnButtonPressedEvent__DelegateSignature' ref from Metadata '/Game/OdV/UI/WB_PauseMenu.PackageMetaData'
+[2025.03.21-05.15.23:183][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_PauseMenu.SKEL_WB_PauseMenu_C:BndEvt__WB_PauseMenu_GotoMainMenu_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/OdV/UI/WB_PauseMenu.PackageMetaData'
+[2025.03.21-05.15.23:183][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_PauseMenu.SKEL_WB_PauseMenu_C:BndEvt__WB_PauseMenu_Options_K2Node_ComponentBoundEvent_3_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/OdV/UI/WB_PauseMenu.PackageMetaData'
+[2025.03.21-05.15.23:183][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_PauseMenu.SKEL_WB_PauseMenu_C:BndEvt__WB_PauseMenu_Save_K2Node_ComponentBoundEvent_4_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/OdV/UI/WB_PauseMenu.PackageMetaData'
+[2025.03.21-05.15.23:183][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_PauseMenu.SKEL_WB_PauseMenu_C' ref from Metadata '/Game/OdV/UI/WB_PauseMenu.PackageMetaData'
+[2025.03.21-05.15.23:184][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_OptionsMenu.WB_OptionsMenu_C' ref from Metadata '/Game/OdV/UI/WB_OptionsMenu.PackageMetaData'
+[2025.03.21-05.15.23:184][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_OptionsMenu.WB_OptionsMenu:GetText.K2Node_FunctionEntry_0' ref from Metadata '/Game/OdV/UI/WB_OptionsMenu.PackageMetaData'
+[2025.03.21-05.15.23:184][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_OptionsMenu.WB_OptionsMenu:GetText_0.K2Node_FunctionResult_1' ref from Metadata '/Game/OdV/UI/WB_OptionsMenu.PackageMetaData'
+[2025.03.21-05.15.23:184][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_OptionsMenu.WB_OptionsMenu:GetText_0.K2Node_FunctionEntry_0' ref from Metadata '/Game/OdV/UI/WB_OptionsMenu.PackageMetaData'
+[2025.03.21-05.15.23:184][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_OptionsMenu.WB_OptionsMenu:GetText.K2Node_FunctionResult_0' ref from Metadata '/Game/OdV/UI/WB_OptionsMenu.PackageMetaData'
+[2025.03.21-05.15.23:184][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_OptionsMenu.WB_OptionsMenu:GetText_1.K2Node_FunctionResult_0' ref from Metadata '/Game/OdV/UI/WB_OptionsMenu.PackageMetaData'
+[2025.03.21-05.15.23:184][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_OptionsMenu.WB_OptionsMenu:GetText_1.K2Node_FunctionEntry_0' ref from Metadata '/Game/OdV/UI/WB_OptionsMenu.PackageMetaData'
+[2025.03.21-05.15.23:184][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_OptionsMenu.SKEL_WB_OptionsMenu_C:PreConstruct' ref from Metadata '/Game/OdV/UI/WB_OptionsMenu.PackageMetaData'
+[2025.03.21-05.15.23:184][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_OptionsMenu.SKEL_WB_OptionsMenu_C:Construct' ref from Metadata '/Game/OdV/UI/WB_OptionsMenu.PackageMetaData'
+[2025.03.21-05.15.23:184][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_OptionsMenu.SKEL_WB_OptionsMenu_C:Tick' ref from Metadata '/Game/OdV/UI/WB_OptionsMenu.PackageMetaData'
+[2025.03.21-05.15.23:184][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_OptionsMenu.SKEL_WB_OptionsMenu_C:BndEvt__WB_OptionsMenu_WindowMode+_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/OdV/UI/WB_OptionsMenu.PackageMetaData'
+[2025.03.21-05.15.23:184][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_OptionsMenu.SKEL_WB_OptionsMenu_C:BndEvt__WB_OptionsMenu_WindowMode-_K2Node_ComponentBoundEvent_3_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/OdV/UI/WB_OptionsMenu.PackageMetaData'
+[2025.03.21-05.15.23:184][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_OptionsMenu.SKEL_WB_OptionsMenu_C:BndEvt__WB_OptionsMenu_Resolution-_K2Node_ComponentBoundEvent_4_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/OdV/UI/WB_OptionsMenu.PackageMetaData'
+[2025.03.21-05.15.23:184][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_OptionsMenu.SKEL_WB_OptionsMenu_C:BndEvt__WB_OptionsMenu_Resolution+_K2Node_ComponentBoundEvent_5_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/OdV/UI/WB_OptionsMenu.PackageMetaData'
+[2025.03.21-05.15.23:184][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_OptionsMenu.SKEL_WB_OptionsMenu_C:BndEvt__WB_OptionsMenu_Graphics+_K2Node_ComponentBoundEvent_6_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/OdV/UI/WB_OptionsMenu.PackageMetaData'
+[2025.03.21-05.15.23:184][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_OptionsMenu.SKEL_WB_OptionsMenu_C:BndEvt__WB_OptionsMenu_Graphics-_K2Node_ComponentBoundEvent_7_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/OdV/UI/WB_OptionsMenu.PackageMetaData'
+[2025.03.21-05.15.23:184][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_OptionsMenu.SKEL_WB_OptionsMenu_C:BndEvt__WB_OptionsMenu_Button_381_K2Node_ComponentBoundEvent_8_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/OdV/UI/WB_OptionsMenu.PackageMetaData'
+[2025.03.21-05.15.23:184][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_OptionsMenu.SKEL_WB_OptionsMenu_C:BndEvt__WB_OptionsMenu_Apply_1_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/OdV/UI/WB_OptionsMenu.PackageMetaData'
+[2025.03.21-05.15.23:184][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_OptionsMenu.SKEL_WB_OptionsMenu_C' ref from Metadata '/Game/OdV/UI/WB_OptionsMenu.PackageMetaData'
+[2025.03.21-05.15.23:184][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_OptionsMenu.WB_OptionsMenu_C:Construct' ref from Metadata '/Game/OdV/UI/WB_OptionsMenu.PackageMetaData'
+[2025.03.21-05.15.23:185][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_MainMenu.WB_MainMenu_C' ref from Metadata '/Game/OdV/UI/WB_MainMenu.PackageMetaData'
+[2025.03.21-05.15.23:185][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_MainMenu.SKEL_WB_MainMenu_C:PreConstruct' ref from Metadata '/Game/OdV/UI/WB_MainMenu.PackageMetaData'
+[2025.03.21-05.15.23:185][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_MainMenu.SKEL_WB_MainMenu_C:Construct' ref from Metadata '/Game/OdV/UI/WB_MainMenu.PackageMetaData'
+[2025.03.21-05.15.23:185][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_MainMenu.SKEL_WB_MainMenu_C:Tick' ref from Metadata '/Game/OdV/UI/WB_MainMenu.PackageMetaData'
+[2025.03.21-05.15.23:185][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_MainMenu.SKEL_WB_MainMenu_C:BndEvt__WB_PauseMenu_Resume_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/OdV/UI/WB_MainMenu.PackageMetaData'
+[2025.03.21-05.15.23:185][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_MainMenu.SKEL_WB_MainMenu_C:BndEvt__WB_MainMenu_ExitMenuButton_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/OdV/UI/WB_MainMenu.PackageMetaData'
+[2025.03.21-05.15.23:185][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_MainMenu.SKEL_WB_MainMenu_C:BndEvt__WB_MainMenu_Options_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/OdV/UI/WB_MainMenu.PackageMetaData'
+[2025.03.21-05.15.23:185][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_MainMenu.SKEL_WB_MainMenu_C' ref from Metadata '/Game/OdV/UI/WB_MainMenu.PackageMetaData'
+[2025.03.21-05.15.23:185][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_MainMenu.WB_MainMenu_C:Construct' ref from Metadata '/Game/OdV/UI/WB_MainMenu.PackageMetaData'
+[2025.03.21-05.15.23:186][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_LifeBar.WB_LifeBar_C' ref from Metadata '/Game/OdV/UI/WB_LifeBar.PackageMetaData'
+[2025.03.21-05.15.23:186][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_LifeBar.WB_LifeBar:GetProgressBarPercent.K2Node_FunctionEntry_0' ref from Metadata '/Game/OdV/UI/WB_LifeBar.PackageMetaData'
+[2025.03.21-05.15.23:186][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_LifeBar.WB_LifeBar:GetProgressBarPercent.K2Node_FunctionResult_0' ref from Metadata '/Game/OdV/UI/WB_LifeBar.PackageMetaData'
+[2025.03.21-05.15.23:186][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_LifeBar.SKEL_WB_LifeBar_C:PreConstruct' ref from Metadata '/Game/OdV/UI/WB_LifeBar.PackageMetaData'
+[2025.03.21-05.15.23:186][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_LifeBar.SKEL_WB_LifeBar_C:Construct' ref from Metadata '/Game/OdV/UI/WB_LifeBar.PackageMetaData'
+[2025.03.21-05.15.23:186][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_LifeBar.SKEL_WB_LifeBar_C:Tick' ref from Metadata '/Game/OdV/UI/WB_LifeBar.PackageMetaData'
+[2025.03.21-05.15.23:186][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_LifeBar.SKEL_WB_LifeBar_C' ref from Metadata '/Game/OdV/UI/WB_LifeBar.PackageMetaData'
+[2025.03.21-05.15.23:187][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_CurrentWeapon.WB_CurrentWeapon_C' ref from Metadata '/Game/OdV/UI/WB_CurrentWeapon.PackageMetaData'
+[2025.03.21-05.15.23:187][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_CurrentWeapon.WB_CurrentWeapon:EventGraph.K2Node_Event_0' ref from Metadata '/Game/OdV/UI/WB_CurrentWeapon.PackageMetaData'
+[2025.03.21-05.15.23:187][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_CurrentWeapon.WB_CurrentWeapon:EventGraph.K2Node_Event_1' ref from Metadata '/Game/OdV/UI/WB_CurrentWeapon.PackageMetaData'
+[2025.03.21-05.15.23:187][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_CurrentWeapon.WB_CurrentWeapon:EventGraph.K2Node_Event_2' ref from Metadata '/Game/OdV/UI/WB_CurrentWeapon.PackageMetaData'
+[2025.03.21-05.15.23:187][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_CurrentWeapon.WB_CurrentWeapon:GetCurrentWeaponText.K2Node_FunctionEntry_0' ref from Metadata '/Game/OdV/UI/WB_CurrentWeapon.PackageMetaData'
+[2025.03.21-05.15.23:187][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_CurrentWeapon.WB_CurrentWeapon:GetCurrentWeaponText.K2Node_FunctionResult_0' ref from Metadata '/Game/OdV/UI/WB_CurrentWeapon.PackageMetaData'
+[2025.03.21-05.15.23:187][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_CurrentWeapon.WB_CurrentWeapon:GetAmmoCountText.K2Node_FunctionEntry_0' ref from Metadata '/Game/OdV/UI/WB_CurrentWeapon.PackageMetaData'
+[2025.03.21-05.15.23:187][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_CurrentWeapon.WB_CurrentWeapon:GetAmmoCountText.K2Node_FunctionResult_0' ref from Metadata '/Game/OdV/UI/WB_CurrentWeapon.PackageMetaData'
+[2025.03.21-05.15.23:187][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_CurrentWeapon.SKEL_WB_CurrentWeapon_C:PreConstruct' ref from Metadata '/Game/OdV/UI/WB_CurrentWeapon.PackageMetaData'
+[2025.03.21-05.15.23:187][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_CurrentWeapon.SKEL_WB_CurrentWeapon_C:Construct' ref from Metadata '/Game/OdV/UI/WB_CurrentWeapon.PackageMetaData'
+[2025.03.21-05.15.23:187][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_CurrentWeapon.SKEL_WB_CurrentWeapon_C:Tick' ref from Metadata '/Game/OdV/UI/WB_CurrentWeapon.PackageMetaData'
+[2025.03.21-05.15.23:187][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_CurrentWeapon.SKEL_WB_CurrentWeapon_C' ref from Metadata '/Game/OdV/UI/WB_CurrentWeapon.PackageMetaData'
+[2025.03.21-05.15.23:189][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_Crosshair.WB_Crosshair_C' ref from Metadata '/Game/OdV/UI/WB_Crosshair.PackageMetaData'
+[2025.03.21-05.15.23:189][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_Crosshair.WB_Crosshair:EventGraph.K2Node_Event_0' ref from Metadata '/Game/OdV/UI/WB_Crosshair.PackageMetaData'
+[2025.03.21-05.15.23:189][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_Crosshair.WB_Crosshair:EventGraph.K2Node_Event_1' ref from Metadata '/Game/OdV/UI/WB_Crosshair.PackageMetaData'
+[2025.03.21-05.15.23:189][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_Crosshair.WB_Crosshair:EventGraph.K2Node_Event_2' ref from Metadata '/Game/OdV/UI/WB_Crosshair.PackageMetaData'
+[2025.03.21-05.15.23:189][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_Crosshair.SKEL_WB_Crosshair_C:PreConstruct' ref from Metadata '/Game/OdV/UI/WB_Crosshair.PackageMetaData'
+[2025.03.21-05.15.23:189][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_Crosshair.SKEL_WB_Crosshair_C:Construct' ref from Metadata '/Game/OdV/UI/WB_Crosshair.PackageMetaData'
+[2025.03.21-05.15.23:189][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_Crosshair.SKEL_WB_Crosshair_C:Tick' ref from Metadata '/Game/OdV/UI/WB_Crosshair.PackageMetaData'
+[2025.03.21-05.15.23:189][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_Crosshair.SKEL_WB_Crosshair_C' ref from Metadata '/Game/OdV/UI/WB_Crosshair.PackageMetaData'
+[2025.03.21-05.15.23:190][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_Captured.WB_Captured_C' ref from Metadata '/Game/OdV/UI/WB_Captured.PackageMetaData'
+[2025.03.21-05.15.23:190][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_Captured.SKEL_WB_Captured_C:Play Fade Animation' ref from Metadata '/Game/OdV/UI/WB_Captured.PackageMetaData'
+[2025.03.21-05.15.23:190][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_Captured.SKEL_WB_Captured_C:BndEvt__WB_Captured_RetryButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/OdV/UI/WB_Captured.PackageMetaData'
+[2025.03.21-05.15.23:190][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_Captured.SKEL_WB_Captured_C:BndEvt__WB_Captured_MainMenuButton_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/OdV/UI/WB_Captured.PackageMetaData'
+[2025.03.21-05.15.23:190][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_Captured.SKEL_WB_Captured_C' ref from Metadata '/Game/OdV/UI/WB_Captured.PackageMetaData'
+[2025.03.21-05.15.23:190][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_Bar.WB_Bar_C' ref from Metadata '/Game/OdV/UI/WB_Bar.PackageMetaData'
+[2025.03.21-05.15.23:190][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_Bar.WB_Bar:EventGraph.K2Node_Event_0' ref from Metadata '/Game/OdV/UI/WB_Bar.PackageMetaData'
+[2025.03.21-05.15.23:191][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_Bar.WB_Bar:EventGraph.K2Node_Event_1' ref from Metadata '/Game/OdV/UI/WB_Bar.PackageMetaData'
+[2025.03.21-05.15.23:191][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_Bar.WB_Bar:EventGraph.K2Node_Event_2' ref from Metadata '/Game/OdV/UI/WB_Bar.PackageMetaData'
+[2025.03.21-05.15.23:191][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_Bar.SKEL_WB_Bar_C:PreConstruct' ref from Metadata '/Game/OdV/UI/WB_Bar.PackageMetaData'
+[2025.03.21-05.15.23:191][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_Bar.SKEL_WB_Bar_C:Construct' ref from Metadata '/Game/OdV/UI/WB_Bar.PackageMetaData'
+[2025.03.21-05.15.23:191][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_Bar.SKEL_WB_Bar_C:Tick' ref from Metadata '/Game/OdV/UI/WB_Bar.PackageMetaData'
+[2025.03.21-05.15.23:191][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_Bar.SKEL_WB_Bar_C:SetDetectVisible' ref from Metadata '/Game/OdV/UI/WB_Bar.PackageMetaData'
+[2025.03.21-05.15.23:191][ 53]LogMetaData: Removing '/Game/HolySheep/UI/WB_Bar.SKEL_WB_Bar_C' ref from Metadata '/Game/OdV/UI/WB_Bar.PackageMetaData'
+[2025.03.21-05.15.23:205][ 53]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.21-05.15.23:258][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HolySheep/UI/WB_Timer" FILE="../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/WB_Timer.uasset" SILENT=true
+[2025.03.21-05.15.23:269][ 53]LogSavePackage: Moving output files for package: /Game/HolySheep/UI/WB_Timer
+[2025.03.21-05.15.23:269][ 53]LogSavePackage: Moving '../../../../Holy-Sheep/Holy-Sheep/Saved/WB_TimerF67208B14FAC822727795F9AF27F569B.tmp' to '../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/WB_Timer.uasset'
+[2025.03.21-05.15.23:273][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HolySheep/UI/WB_TakedownPrompt" FILE="../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/WB_TakedownPrompt.uasset" SILENT=true
+[2025.03.21-05.15.23:277][ 53]LogSavePackage: Moving output files for package: /Game/HolySheep/UI/WB_TakedownPrompt
+[2025.03.21-05.15.23:277][ 53]LogSavePackage: Moving '../../../../Holy-Sheep/Holy-Sheep/Saved/WB_TakedownPrompt40D350EA46AF88DC333F33A3151993A0.tmp' to '../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/WB_TakedownPrompt.uasset'
+[2025.03.21-05.15.23:280][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HolySheep/UI/WB_ScoreSlot" FILE="../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/WB_ScoreSlot.uasset" SILENT=true
+[2025.03.21-05.15.23:284][ 53]LogSavePackage: Moving output files for package: /Game/HolySheep/UI/WB_ScoreSlot
+[2025.03.21-05.15.23:284][ 53]LogSavePackage: Moving '../../../../Holy-Sheep/Holy-Sheep/Saved/WB_ScoreSlot72B0EF044190D9528CA4B7B78A8D93CC.tmp' to '../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/WB_ScoreSlot.uasset'
+[2025.03.21-05.15.23:288][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HolySheep/UI/WB_PauseMenu" FILE="../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/WB_PauseMenu.uasset" SILENT=true
+[2025.03.21-05.15.23:316][ 53]LogSavePackage: Moving output files for package: /Game/HolySheep/UI/WB_PauseMenu
+[2025.03.21-05.15.23:316][ 53]LogSavePackage: Moving '../../../../Holy-Sheep/Holy-Sheep/Saved/WB_PauseMenuAEF92B7E4C5544252E2200BE966F6008.tmp' to '../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/WB_PauseMenu.uasset'
+[2025.03.21-05.15.23:320][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HolySheep/UI/WB_OptionsMenu" FILE="../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/WB_OptionsMenu.uasset" SILENT=true
+[2025.03.21-05.15.23:366][ 53]LogSavePackage: Moving output files for package: /Game/HolySheep/UI/WB_OptionsMenu
+[2025.03.21-05.15.23:366][ 53]LogSavePackage: Moving '../../../../Holy-Sheep/Holy-Sheep/Saved/WB_OptionsMenu1ACFCD8341D5A9E04333B898A8BC8986.tmp' to '../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/WB_OptionsMenu.uasset'
+[2025.03.21-05.15.23:370][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HolySheep/UI/WB_MainMenu" FILE="../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/WB_MainMenu.uasset" SILENT=true
+[2025.03.21-05.15.23:386][ 53]LogSavePackage: Moving output files for package: /Game/HolySheep/UI/WB_MainMenu
+[2025.03.21-05.15.23:388][ 53]LogSavePackage: Moving '../../../../Holy-Sheep/Holy-Sheep/Saved/WB_MainMenu15D3515B4EA253A3573685897354377A.tmp' to '../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/WB_MainMenu.uasset'
+[2025.03.21-05.15.23:391][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HolySheep/UI/WB_LifeBar" FILE="../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/WB_LifeBar.uasset" SILENT=true
+[2025.03.21-05.15.23:398][ 53]LogSavePackage: Moving output files for package: /Game/HolySheep/UI/WB_LifeBar
+[2025.03.21-05.15.23:398][ 53]LogSavePackage: Moving '../../../../Holy-Sheep/Holy-Sheep/Saved/WB_LifeBar14F7AE784E49F97BDE69A191A839CE73.tmp' to '../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/WB_LifeBar.uasset'
+[2025.03.21-05.15.23:402][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HolySheep/UI/WB_CurrentWeapon" FILE="../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/WB_CurrentWeapon.uasset" SILENT=true
+[2025.03.21-05.15.23:416][ 53]LogSavePackage: Moving output files for package: /Game/HolySheep/UI/WB_CurrentWeapon
+[2025.03.21-05.15.23:416][ 53]LogSavePackage: Moving '../../../../Holy-Sheep/Holy-Sheep/Saved/WB_CurrentWeaponEFCCD7284FDADD3D0280569FE08C5AE3.tmp' to '../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/WB_CurrentWeapon.uasset'
+[2025.03.21-05.15.23:420][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HolySheep/UI/WB_Crosshair" FILE="../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/WB_Crosshair.uasset" SILENT=true
+[2025.03.21-05.15.23:423][ 53]LogSavePackage: Moving output files for package: /Game/HolySheep/UI/WB_Crosshair
+[2025.03.21-05.15.23:423][ 53]LogSavePackage: Moving '../../../../Holy-Sheep/Holy-Sheep/Saved/WB_Crosshair1AC29F1A4015E3FD6245728895027CFE.tmp' to '../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/WB_Crosshair.uasset'
+[2025.03.21-05.15.23:427][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HolySheep/UI/WB_Captured" FILE="../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/WB_Captured.uasset" SILENT=true
+[2025.03.21-05.15.23:439][ 53]LogSavePackage: Moving output files for package: /Game/HolySheep/UI/WB_Captured
+[2025.03.21-05.15.23:439][ 53]LogSavePackage: Moving '../../../../Holy-Sheep/Holy-Sheep/Saved/WB_CapturedF6D498254EE3A1DE2F8B57968C260D77.tmp' to '../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/WB_Captured.uasset'
+[2025.03.21-05.15.23:443][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HolySheep/UI/WB_Bar" FILE="../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/WB_Bar.uasset" SILENT=true
+[2025.03.21-05.15.23:449][ 53]LogSavePackage: Moving output files for package: /Game/HolySheep/UI/WB_Bar
+[2025.03.21-05.15.23:449][ 53]LogSavePackage: Moving '../../../../Holy-Sheep/Holy-Sheep/Saved/WB_BarFD5EF0364D9A036AB145568D41EA94FA.tmp' to '../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/WB_Bar.uasset'
+[2025.03.21-05.15.23:452][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HolySheep/UI/Crosshair" FILE="../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/Crosshair.uasset" SILENT=true
+[2025.03.21-05.15.23:472][ 53]LogSavePackage: Moving output files for package: /Game/HolySheep/UI/Crosshair
+[2025.03.21-05.15.23:472][ 53]LogSavePackage: Moving '../../../../Holy-Sheep/Holy-Sheep/Saved/Crosshair0498CE0C4056B570CE8BCC85B4CA23D5.tmp' to '../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/Crosshair.uasset'
+[2025.03.21-05.15.23:474][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HolySheep/UI/Fonts/D-DINCondensed-Bold_Font" FILE="../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/Fonts/D-DINCondensed-Bold_Font.uasset" SILENT=true
+[2025.03.21-05.15.23:475][ 53]LogSavePackage: Moving output files for package: /Game/HolySheep/UI/Fonts/D-DINCondensed-Bold_Font
+[2025.03.21-05.15.23:475][ 53]LogSavePackage: Moving '../../../../Holy-Sheep/Holy-Sheep/Saved/D-DINCondensed-Bold_Font92F520DD4BDD2CF5F3C5A5831C27DDE6.tmp' to '../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/Fonts/D-DINCondensed-Bold_Font.uasset'
+[2025.03.21-05.15.23:476][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HolySheep/UI/Fonts/D-DINCondensed-Bold" FILE="../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/Fonts/D-DINCondensed-Bold.uasset" SILENT=true
+[2025.03.21-05.15.23:476][ 53]LogSavePackage: Moving output files for package: /Game/HolySheep/UI/Fonts/D-DINCondensed-Bold
+[2025.03.21-05.15.23:478][ 53]LogSavePackage: Moving '../../../../Holy-Sheep/Holy-Sheep/Saved/D-DINCondensed-Bold428ED8DE493D436F5126ACB280F9834B.tmp' to '../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/Fonts/D-DINCondensed-Bold.uasset'
+[2025.03.21-05.15.23:480][ 53]LogSavePackage: Moving output files for package: /Game/HolySheep/UI/Fonts/Akzidenz-GroteskPro/akzidenzgroteskpro_medextit_Font
+[2025.03.21-05.15.23:480][ 53]LogSavePackage: Moving '../../../../Holy-Sheep/Holy-Sheep/Saved/akzidenzgroteskpro_medextit_Font22557F8C475912175B7EAF80B17D3EC4.tmp' to '../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/Fonts/Akzidenz-GroteskPro/akzidenzgroteskpro_medextit_Font.uasset'
+[2025.03.21-05.15.23:484][ 53]LogSavePackage: Moving output files for package: /Game/HolySheep/UI/Fonts/Akzidenz-GroteskPro/akzidenzgroteskpro_medextit
+[2025.03.21-05.15.23:484][ 53]LogSavePackage: Moving '../../../../Holy-Sheep/Holy-Sheep/Saved/akzidenzgroteskpro_medextitFB2E30E441E7292E86AA3688CBF7AE1B.tmp' to '../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/Fonts/Akzidenz-GroteskPro/akzidenzgroteskpro_medextit.uasset'
+[2025.03.21-05.15.23:487][ 53]LogSavePackage: Moving output files for package: /Game/HolySheep/UI/Fonts/Akzidenz-GroteskPro/akzidenzgroteskpro_bold_Font
+[2025.03.21-05.15.23:488][ 53]LogSavePackage: Moving '../../../../Holy-Sheep/Holy-Sheep/Saved/akzidenzgroteskpro_bold_Font42E902DC4772844308707E9ADB855F6D.tmp' to '../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/Fonts/Akzidenz-GroteskPro/akzidenzgroteskpro_bold_Font.uasset'
+[2025.03.21-05.15.23:491][ 53]LogSavePackage: Moving output files for package: /Game/HolySheep/UI/Fonts/Akzidenz-GroteskPro/akzidenzgroteskpro_boldexit_Font
+[2025.03.21-05.15.23:491][ 53]LogSavePackage: Moving '../../../../Holy-Sheep/Holy-Sheep/Saved/akzidenzgroteskpro_boldexit_Font3C429CD6443CFCD9A45166B217E68ABD.tmp' to '../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/Fonts/Akzidenz-GroteskPro/akzidenzgroteskpro_boldexit_Font.uasset'
+[2025.03.21-05.15.23:494][ 53]LogSavePackage: Moving output files for package: /Game/HolySheep/UI/Fonts/Akzidenz-GroteskPro/akzidenzgroteskpro_boldexit
+[2025.03.21-05.15.23:495][ 53]LogSavePackage: Moving '../../../../Holy-Sheep/Holy-Sheep/Saved/akzidenzgroteskpro_boldexit266FBC9E4925ED77C75C529B55CBA09A.tmp' to '../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/Fonts/Akzidenz-GroteskPro/akzidenzgroteskpro_boldexit.uasset'
+[2025.03.21-05.15.23:497][ 53]LogSavePackage: Moving output files for package: /Game/HolySheep/UI/Fonts/Akzidenz-GroteskPro/akzidenzgroteskpro_boldcn_Font
+[2025.03.21-05.15.23:497][ 53]LogSavePackage: Moving '../../../../Holy-Sheep/Holy-Sheep/Saved/akzidenzgroteskpro_boldcn_Font99930D8046F7B97192690B966F4F120D.tmp' to '../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/Fonts/Akzidenz-GroteskPro/akzidenzgroteskpro_boldcn_Font.uasset'
+[2025.03.21-05.15.23:500][ 53]LogSavePackage: Moving output files for package: /Game/HolySheep/UI/Fonts/Akzidenz-GroteskPro/akzidenzgroteskpro_boldcnit_Font
+[2025.03.21-05.15.23:500][ 53]LogSavePackage: Moving '../../../../Holy-Sheep/Holy-Sheep/Saved/akzidenzgroteskpro_boldcnit_FontA798D65E450B6AABED6044ACC09C50CF.tmp' to '../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/Fonts/Akzidenz-GroteskPro/akzidenzgroteskpro_boldcnit_Font.uasset'
+[2025.03.21-05.15.23:502][ 53]LogSavePackage: Moving output files for package: /Game/HolySheep/UI/Fonts/Akzidenz-GroteskPro/akzidenzgroteskpro_boldcnit
+[2025.03.21-05.15.23:502][ 53]LogSavePackage: Moving '../../../../Holy-Sheep/Holy-Sheep/Saved/akzidenzgroteskpro_boldcnit9C2C964A4D022CD9F6732F86B89BB763.tmp' to '../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/Fonts/Akzidenz-GroteskPro/akzidenzgroteskpro_boldcnit.uasset'
+[2025.03.21-05.15.23:505][ 53]LogSavePackage: Moving output files for package: /Game/HolySheep/UI/Fonts/Akzidenz-GroteskPro/akzidenzgroteskpro_boldcn
+[2025.03.21-05.15.23:505][ 53]LogSavePackage: Moving '../../../../Holy-Sheep/Holy-Sheep/Saved/akzidenzgroteskpro_boldcn4D3ACCE74622BD08E8245A828B46C5D1.tmp' to '../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/Fonts/Akzidenz-GroteskPro/akzidenzgroteskpro_boldcn.uasset'
+[2025.03.21-05.15.23:509][ 53]LogSavePackage: Moving output files for package: /Game/HolySheep/UI/Fonts/Akzidenz-GroteskPro/akzidenzgroteskpro_bold
+[2025.03.21-05.15.23:509][ 53]LogSavePackage: Moving '../../../../Holy-Sheep/Holy-Sheep/Saved/akzidenzgroteskpro_bold755C54614C612DBCF2DD01855DD7B0AF.tmp' to '../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/Fonts/Akzidenz-GroteskPro/akzidenzgroteskpro_bold.uasset'
+[2025.03.21-05.15.23:521][ 53]LogFileHelpers: InternalPromptForCheckoutAndSave took 316 ms (total: 741 ms)
+[2025.03.21-05.15.23:779][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2025.03.21-05.15.23:798][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2025.03.21-05.15.23:811][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.03.21-05.15.23:873][ 53]AssetCheck: New page: Asset Save: multiple assets
+[2025.03.21-05.15.23:873][ 53]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/HolySheep/UI/WB_Timer.WB_Timer
+[2025.03.21-05.15.23:874][ 53]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/HolySheep/UI/WB_TakedownPrompt.WB_TakedownPrompt
+[2025.03.21-05.15.23:874][ 53]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/HolySheep/UI/WB_ScoreSlot.WB_ScoreSlot
+[2025.03.21-05.15.23:874][ 53]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/HolySheep/UI/WB_PauseMenu.WB_PauseMenu
+[2025.03.21-05.15.23:875][ 53]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/HolySheep/UI/WB_OptionsMenu.WB_OptionsMenu
+[2025.03.21-05.15.23:876][ 53]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/HolySheep/UI/WB_MainMenu.WB_MainMenu
+[2025.03.21-05.15.23:877][ 53]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/HolySheep/UI/WB_LifeBar.WB_LifeBar
+[2025.03.21-05.15.23:878][ 53]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/HolySheep/UI/WB_CurrentWeapon.WB_CurrentWeapon
+[2025.03.21-05.15.23:878][ 53]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/HolySheep/UI/WB_Crosshair.WB_Crosshair
+[2025.03.21-05.15.23:878][ 53]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/HolySheep/UI/WB_Captured.WB_Captured
+[2025.03.21-05.15.23:879][ 53]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/HolySheep/UI/WB_Bar.WB_Bar
+[2025.03.21-05.15.23:879][ 53]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/HolySheep/UI/Crosshair.Crosshair
+[2025.03.21-05.15.23:879][ 53]LogContentValidation: Display: Validating /Script/Engine.Font /Game/HolySheep/UI/Fonts/D-DINCondensed-Bold_Font.D-DINCondensed-Bold_Font
+[2025.03.21-05.15.23:879][ 53]LogContentValidation: Display: Validating /Script/Engine.FontFace /Game/HolySheep/UI/Fonts/D-DINCondensed-Bold.D-DINCondensed-Bold
+[2025.03.21-05.15.23:879][ 53]LogContentValidation: Display: Validating /Script/Engine.Font /Game/HolySheep/UI/Fonts/Akzidenz-GroteskPro/akzidenzgroteskpro_medextit_Font.akzidenzgroteskpro_medextit_Font
+[2025.03.21-05.15.23:881][ 53]LogContentValidation: Display: Validating /Script/Engine.FontFace /Game/HolySheep/UI/Fonts/Akzidenz-GroteskPro/akzidenzgroteskpro_medextit.akzidenzgroteskpro_medextit
+[2025.03.21-05.15.23:881][ 53]LogContentValidation: Display: Validating /Script/Engine.Font /Game/HolySheep/UI/Fonts/Akzidenz-GroteskPro/akzidenzgroteskpro_bold_Font.akzidenzgroteskpro_bold_Font
+[2025.03.21-05.15.23:881][ 53]LogContentValidation: Display: Validating /Script/Engine.Font /Game/HolySheep/UI/Fonts/Akzidenz-GroteskPro/akzidenzgroteskpro_boldexit_Font.akzidenzgroteskpro_boldexit_Font
+[2025.03.21-05.15.23:881][ 53]LogContentValidation: Display: Validating /Script/Engine.FontFace /Game/HolySheep/UI/Fonts/Akzidenz-GroteskPro/akzidenzgroteskpro_boldexit.akzidenzgroteskpro_boldexit
+[2025.03.21-05.15.23:881][ 53]LogContentValidation: Display: Validating /Script/Engine.Font /Game/HolySheep/UI/Fonts/Akzidenz-GroteskPro/akzidenzgroteskpro_boldcn_Font.akzidenzgroteskpro_boldcn_Font
+[2025.03.21-05.15.23:881][ 53]LogContentValidation: Display: Validating /Script/Engine.Font /Game/HolySheep/UI/Fonts/Akzidenz-GroteskPro/akzidenzgroteskpro_boldcnit_Font.akzidenzgroteskpro_boldcnit_Font
+[2025.03.21-05.15.23:881][ 53]LogContentValidation: Display: Validating /Script/Engine.FontFace /Game/HolySheep/UI/Fonts/Akzidenz-GroteskPro/akzidenzgroteskpro_boldcnit.akzidenzgroteskpro_boldcnit
+[2025.03.21-05.15.23:881][ 53]LogContentValidation: Display: Validating /Script/Engine.FontFace /Game/HolySheep/UI/Fonts/Akzidenz-GroteskPro/akzidenzgroteskpro_boldcn.akzidenzgroteskpro_boldcn
+[2025.03.21-05.15.23:881][ 53]LogContentValidation: Display: Validating /Script/Engine.FontFace /Game/HolySheep/UI/Fonts/Akzidenz-GroteskPro/akzidenzgroteskpro_bold.akzidenzgroteskpro_bold
+[2025.03.21-05.15.24:587][ 71]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.21-05.15.24:628][ 72]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.21-05.15.24:690][ 74]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.21-05.15.24:717][ 75]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.21-05.15.24:755][ 76]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.21-05.15.24:794][ 77]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.21-05.15.24:828][ 78]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.21-05.15.25:079][ 89]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.21-05.15.25:122][ 90]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.21-05.15.25:224][ 99]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.21-05.15.35:665][ 60]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.21-05.15.35:845][ 69]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.21-05.15.42:376][722]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/HolySheep/UI/WB_Timer.WB_Timer
+[2025.03.21-05.15.42:376][722]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.21-05.15.42:376][722]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.03.21-05.15.42:389][722]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.21-05.15.42:389][722]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.03.21-05.15.42:399][722]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2025.03.21-05.15.42:704][722]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2025.03.21-05.15.42:706][722]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2025.03.21-05.15.51:423][329]BlueprintLog: New page: Compile WB_Timer
+[2025.03.21-05.15.51:431][329]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\HolySheep\UI\WB_Timer.uasset: [Compiler] In use pin  <Unnamed>  no longer exists on node  Captured . Please refresh node or break links to remove pin.
+[2025.03.21-05.15.51:431][329]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\HolySheep\UI\WB_Timer.uasset: [Compiler] In use pin  Target  no longer exists on node  Captured . Please refresh node or break links to remove pin.
+[2025.03.21-05.15.51:431][329]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\HolySheep\UI\WB_Timer.uasset: [Compiler] Could not find a function named "Captured" in 'WB_Timer'.
+Make sure 'WB_Timer' has been compiled for  Captured
+[2025.03.21-05.15.51:431][329]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\HolySheep\UI\WB_Timer.uasset: [Compiler] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2025.03.21-05.15.51:431][329]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\HolySheep\UI\WB_Timer.uasset: [Compiler] In use pin  As GM Stealth Gameplay  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2025.03.21-05.15.51:431][329]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\HolySheep\UI\WB_Timer.uasset: [Compiler] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2025.03.21-05.15.51:465][329]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2025.03.21-05.16.26:690][345]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2079.385010
+[2025.03.21-05.16.26:858][360]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.21-05.16.26:858][360]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2079.541992, Update Interval: 311.308929
+[2025.03.21-05.16.27:399][407]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.21-05.16.27:449][407]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HolySheep/UI/WB_Timer" FILE="../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/WB_Timer.uasset" SILENT=true
+[2025.03.21-05.16.27:459][407]LogSavePackage: Moving output files for package: /Game/HolySheep/UI/WB_Timer
+[2025.03.21-05.16.27:459][407]LogSavePackage: Moving '../../../../Holy-Sheep/Holy-Sheep/Saved/WB_Timer9F5463BC4836A82DAA79A88A55BE2D3A.tmp' to '../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/WB_Timer.uasset'
+[2025.03.21-05.16.27:468][407]LogFileHelpers: InternalPromptForCheckoutAndSave took 69 ms (total: 811 ms)
+[2025.03.21-05.16.27:472][407]AssetCheck: New page: Asset Save: WB_Timer
+[2025.03.21-05.16.27:472][407]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/HolySheep/UI/WB_Timer.WB_Timer
+[2025.03.21-05.16.28:354][481]BlueprintLog: New page: Compile WB_Timer
+[2025.03.21-05.16.28:394][481]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2025.03.21-05.16.32:190][794]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.03.21-05.16.32:198][794]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.03.21-05.16.32:198][794]BlueprintLog: Warning: Blueprint failed to compile:  WB_PauseMenu
+[2025.03.21-05.16.32:198][794]BlueprintLog: Warning: Blueprint failed to compile:  WB_MainMenu
+[2025.03.21-05.16.32:198][794]BlueprintLog: Warning: Blueprint failed to compile:  WB_LifeBar
+[2025.03.21-05.16.32:198][794]BlueprintLog: Warning: Blueprint failed to compile:  WB_CurrentWeapon
+[2025.03.21-05.16.39:935][794]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2025.03.21-05.16.41:647][899]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/HolySheep/UI/WB_PauseMenu.WB_PauseMenu
+[2025.03.21-05.16.41:648][899]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.21-05.16.41:648][899]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.03.21-05.16.41:662][899]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.21-05.16.41:662][899]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.03.21-05.17.23:430][953]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.21-05.17.23:492][953]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HolySheep/UI/WB_PauseMenu" FILE="../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/WB_PauseMenu.uasset" SILENT=true
+[2025.03.21-05.17.23:504][953]LogSavePackage: Moving output files for package: /Game/HolySheep/UI/WB_PauseMenu
+[2025.03.21-05.17.23:504][953]LogSavePackage: Moving '../../../../Holy-Sheep/Holy-Sheep/Saved/WB_PauseMenuE56868D947E4EF7FC9D39FBC4C2A68D0.tmp' to '../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/WB_PauseMenu.uasset'
+[2025.03.21-05.17.23:513][953]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 894 ms)
+[2025.03.21-05.17.23:518][953]AssetCheck: New page: Asset Save: WB_PauseMenu
+[2025.03.21-05.17.23:518][953]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/HolySheep/UI/WB_PauseMenu.WB_PauseMenu
+[2025.03.21-05.17.24:527][ 37]BlueprintLog: New page: Compile WB_PauseMenu
+[2025.03.21-05.17.24:562][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2025.03.21-05.17.38:244][122]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.03.21-05.17.38:252][122]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.03.21-05.17.38:252][122]BlueprintLog: Warning: Blueprint failed to compile:  WB_MainMenu
+[2025.03.21-05.17.38:253][122]BlueprintLog: Warning: Blueprint failed to compile:  WB_LifeBar
+[2025.03.21-05.17.38:253][122]BlueprintLog: Warning: Blueprint failed to compile:  WB_CurrentWeapon
+[2025.03.21-05.17.39:734][122]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/HolySheep/UI/WB_MainMenu.WB_MainMenu
+[2025.03.21-05.17.39:734][122]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.21-05.17.39:734][122]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.03.21-05.17.39:750][122]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.21-05.17.39:751][122]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.03.21-05.17.39:885][122]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2025.03.21-05.17.56:670][336]BlueprintLog: New page: Compile WB_MainMenu
+[2025.03.21-05.17.56:707][336]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2025.03.21-05.17.58:026][440]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.03.21-05.17.58:035][440]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.03.21-05.17.58:035][440]BlueprintLog: Warning: Blueprint failed to compile:  WB_LifeBar
+[2025.03.21-05.17.58:035][440]BlueprintLog: Warning: Blueprint failed to compile:  WB_CurrentWeapon
+[2025.03.21-05.17.59:349][440]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/HolySheep/UI/WB_LifeBar.WB_LifeBar
+[2025.03.21-05.17.59:349][440]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.21-05.17.59:349][440]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.03.21-05.17.59:365][440]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.21-05.17.59:365][440]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.03.21-05.17.59:495][440]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2025.03.21-05.18.08:930][167]BlueprintLog: New page: Compile WB_LifeBar
+[2025.03.21-05.18.08:933][167]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\HolySheep\UI\WB_LifeBar.uasset: [Compiler] Binding: Property ' /Script/UMG.ProgressBar:PercentDelegate ' on Widget ' ProgressBar ': Member:GetProgressBarPercent Has the wrong number of arguments, it needs to return 1 value and take no parameters.
+[2025.03.21-05.18.08:963][167]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2025.03.21-05.18.10:896][327]LogBlueprint: Warning: Unknown type of hyperlinked object (ProgressBar), cannot focus it
+[2025.03.21-05.18.11:511][383]LogBlueprint: Warning: Unknown type of hyperlinked object (ProgressBar), cannot focus it
+[2025.03.21-05.18.12:177][444]LogBlueprint: Warning: Unknown type of hyperlinked object (ProgressBar), cannot focus it
+[2025.03.21-05.18.21:357][ 31]BlueprintLog: New page: Compile WB_LifeBar
+[2025.03.21-05.18.21:390][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2025.03.21-05.18.23:492][132]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.03.21-05.18.23:501][132]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.03.21-05.18.23:501][132]BlueprintLog: Warning: Blueprint failed to compile:  WB_CurrentWeapon
+[2025.03.21-05.18.24:488][132]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/HolySheep/UI/WB_CurrentWeapon.WB_CurrentWeapon
+[2025.03.21-05.18.24:488][132]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.21-05.18.24:488][132]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.03.21-05.18.24:509][132]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.03.21-05.18.24:509][132]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.03.21-05.18.24:643][132]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2025.03.21-05.18.46:587][637]BlueprintLog: New page: Compile WB_CurrentWeapon
+[2025.03.21-05.18.46:590][637]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\HolySheep\UI\WB_CurrentWeapon.uasset: [Compiler] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2025.03.21-05.18.46:591][637]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\HolySheep\UI\WB_CurrentWeapon.uasset: [Compiler] In use pin  As BP Player Character  no longer exists on node  Bad cast node . Please refresh node or break links to remove pin.
+[2025.03.21-05.18.46:591][637]LogBlueprint: Warning: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\HolySheep\UI\WB_CurrentWeapon.uasset: [Compiler] Could not find a variable named "hasGunEquipped" in 'WB_CurrentWeapon'.
+Make sure 'WB_CurrentWeapon' has been compiled for  Get hasGunEquipped
+[2025.03.21-05.18.46:591][637]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\HolySheep\UI\WB_CurrentWeapon.uasset: [Compiler] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2025.03.21-05.18.46:622][637]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2025.03.21-05.18.54:104][151]BlueprintLog: New page: Compile WB_CurrentWeapon
+[2025.03.21-05.18.54:106][151]LogBlueprint: Error: [AssetLog] D:\Holy-Sheep\Holy-Sheep\Content\HolySheep\UI\WB_CurrentWeapon.uasset: [Compiler] Binding: Property ' /Script/UMG.TextBlock:TextDelegate ' on Widget ' CurrentWeapon ': Member:GetCurrentWeaponText Has the wrong number of arguments, it needs to return 1 value and take no parameters.
+[2025.03.21-05.18.54:135][151]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2025.03.21-05.18.55:886][287]LogBlueprint: Warning: Unknown type of hyperlinked object (CurrentWeapon), cannot focus it
+[2025.03.21-05.18.57:030][384]LogBlueprint: Warning: Unknown type of hyperlinked object (CurrentWeapon), cannot focus it
+[2025.03.21-05.18.57:194][397]LogBlueprint: Warning: Unknown type of hyperlinked object (CurrentWeapon), cannot focus it
+[2025.03.21-05.19.03:364][784]BlueprintLog: New page: Compile WB_CurrentWeapon
+[2025.03.21-05.19.03:395][784]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2025.03.21-05.19.06:109][921]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2025.03.21-05.19.06:114][921]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.21-05.19.06:173][921]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HolySheep/UI/WB_CurrentWeapon" FILE="../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/WB_CurrentWeapon.uasset" SILENT=true
+[2025.03.21-05.19.06:180][921]LogSavePackage: Moving output files for package: /Game/HolySheep/UI/WB_CurrentWeapon
+[2025.03.21-05.19.06:180][921]LogSavePackage: Moving '../../../../Holy-Sheep/Holy-Sheep/Saved/WB_CurrentWeaponF844BBBE4F53CDEC3DE52F96A20E07B8.tmp' to '../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/WB_CurrentWeapon.uasset'
+[2025.03.21-05.19.06:185][921]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HolySheep/UI/WB_LifeBar" FILE="../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/WB_LifeBar.uasset" SILENT=true
+[2025.03.21-05.19.06:191][921]LogSavePackage: Moving output files for package: /Game/HolySheep/UI/WB_LifeBar
+[2025.03.21-05.19.06:191][921]LogSavePackage: Moving '../../../../Holy-Sheep/Holy-Sheep/Saved/WB_LifeBar71D40138413EF79704F80A9EB54A4735.tmp' to '../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/WB_LifeBar.uasset'
+[2025.03.21-05.19.06:198][921]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HolySheep/UI/WB_MainMenu" FILE="../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/WB_MainMenu.uasset" SILENT=true
+[2025.03.21-05.19.06:213][921]LogSavePackage: Moving output files for package: /Game/HolySheep/UI/WB_MainMenu
+[2025.03.21-05.19.06:213][921]LogSavePackage: Moving '../../../../Holy-Sheep/Holy-Sheep/Saved/WB_MainMenu0AC3F358449390D90D7570BA1CB3E329.tmp' to '../../../../Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/WB_MainMenu.uasset'
+[2025.03.21-05.19.06:227][921]LogFileHelpers: InternalPromptForCheckoutAndSave took 112 ms (total: 1.00 sec)
+[2025.03.21-05.19.06:230][921]AssetCheck: New page: Asset Save: multiple assets
+[2025.03.21-05.19.06:230][921]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/HolySheep/UI/WB_CurrentWeapon.WB_CurrentWeapon
+[2025.03.21-05.19.06:231][921]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/HolySheep/UI/WB_LifeBar.WB_LifeBar
+[2025.03.21-05.19.06:231][921]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/HolySheep/UI/WB_MainMenu.WB_MainMenu
+[2025.03.21-05.19.16:831][606]LogSlate: Window 'WB_CurrentWeapon' being destroyed
+[2025.03.21-05.19.16:838][606]LogSlate: Window 'WB_CurrentWeapon' being destroyed
+[2025.03.21-05.19.16:853][606]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2025.03.21-05.19.16:853][606]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.21-05.19.16:863][606]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2025.03.21-05.19.16:863][606]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.21-05.19.16:903][606]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2025.03.21-05.19.16:903][606]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.21-05.19.16:911][606]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2025.03.21-05.19.16:911][606]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.21-05.19.16:948][606]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2025.03.21-05.19.16:949][606]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.21-05.19.16:956][606]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2025.03.21-05.19.16:956][606]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.21-05.19.17:007][606]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2025.03.21-05.19.17:007][606]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.21-05.19.17:016][606]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2025.03.21-05.19.17:016][606]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.21-05.19.17:069][606]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2025.03.21-05.19.17:069][606]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.03.21-05.19.17:078][606]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2025.03.21-05.19.17:078][606]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
