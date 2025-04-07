@@ -6764,3 +6764,683 @@ Are you sure?
 [2025.04.07-18.55.23:932][299]LogSlate: Window 'Message Log' being destroyed
 [2025.04.07-18.55.39:932][258]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
 [2025.04.07-18.55.43:091][258]LogSlate: Window 'Save Content' being destroyed
+[2025.04.07-18.57.14:110][203]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2025.04.07-18.57.15:765][203]LogSlate: Window 'Save Content' being destroyed
+[2025.04.07-18.57.15:797][203]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.07-18.57.15:934][203]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.04.07-18.57.15:962][203]LogSavePackage: Moving output files for package: /Game/HolySheep/Characters/Player/BS_WalkRunReal
+[2025.04.07-18.57.15:962][203]LogSavePackage: Moving '../../../../../../Users/estra/Downloads/8° semester/Diseño de Videojuegos en Línea/Holy-Sheep/Holy-Sheep/Saved/BS_WalkRunReal3AE062E24B7A41CAF1EA7CBAB2DE7043.tmp' to '../../../../../../Users/estra/Downloads/8° semester/Diseño de Videojuegos en Línea/Holy-Sheep/Holy-Sheep/Content/HolySheep/Characters/Player/BS_WalkRunReal.uasset'
+[2025.04.07-18.57.15:964][203]LogSavePackage: Moving output files for package: /Game/HolySheep/Characters/Anims/Liliana/Liliana_con_rig_Skeleton
+[2025.04.07-18.57.15:964][203]LogSavePackage: Moving '../../../../../../Users/estra/Downloads/8° semester/Diseño de Videojuegos en Línea/Holy-Sheep/Holy-Sheep/Saved/Liliana_con_rig_Skeleton3849FC8149F4BF5FC23E11BBB63AAEEE.tmp' to '../../../../../../Users/estra/Downloads/8° semester/Diseño de Videojuegos en Línea/Holy-Sheep/Holy-Sheep/Content/HolySheep/Characters/Anims/Liliana/Liliana_con_rig_Skeleton.uasset'
+[2025.04.07-18.57.15:972][203]LogFileHelpers: InternalPromptForCheckoutAndSave took 175 ms (total: 4.50 sec)
+[2025.04.07-18.57.15:972][203]LogStall: Shutdown...
+[2025.04.07-18.57.15:975][203]LogStall: Shutdown complete.
+[2025.04.07-18.57.16:095][203]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.04.07-18.57.16:095][203]LogWorld: UWorld::CleanupWorld for World_114, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.16:095][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.07-18.57.16:186][203]LogWorld: UWorld::CleanupWorld for World_155, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.16:186][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.07-18.57.16:195][203]LogWorld: UWorld::CleanupWorld for World_154, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.16:195][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.07-18.57.16:207][203]LogWorld: UWorld::CleanupWorld for World_153, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.16:207][203]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.07-18.57.16:255][203]LogSlate: Window 'HolySheep - Unreal Editor' being destroyed
+[2025.04.07-18.57.16:381][203]AssetCheck: New page: Asset Save: multiple assets
+[2025.04.07-18.57.16:381][203]LogContentValidation: Display: Validating /Script/Engine.BlendSpace /Game/HolySheep/Characters/Player/BS_WalkRunReal.BS_WalkRunReal
+[2025.04.07-18.57.16:381][203]LogContentValidation: Display: Validating /Script/Engine.Skeleton /Game/HolySheep/Characters/Anims/Liliana/Liliana_con_rig_Skeleton.Liliana_con_rig_Skeleton
+[2025.04.07-18.57.16:382][204]Cmd: QUIT_EDITOR
+[2025.04.07-18.57.16:382][204]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.04.07-18.57.16:389][204]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.04.07-18.57.16:389][204]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.04.07-18.57.16:389][204]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.04.07-18.57.16:392][204]LogWorld: UWorld::CleanupWorld for BattleSheepMainMenu, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.16:392][204]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.07-18.57.16:407][204]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.04.07-18.57.17:445][204]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.04.07-18.57.17:445][204]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.04.07-18.57.17:445][204]LogAudio: Display: Audio Device unregistered from world 'BattleSheepMainMenu'.
+[2025.04.07-18.57.17:445][204]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 1
+[2025.04.07-18.57.17:445][204]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.04.07-18.57.17:447][204]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.04.07-18.57.17:457][204]LogAudio: Display: Audio Device Manager Shutdown
+[2025.04.07-18.57.17:459][204]LogWindowsTextInputMethodSystem: Activated input method: Español (México) - (Keyboard).
+[2025.04.07-18.57.17:470][204]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.04.07-18.57.17:473][204]LogExit: Preparing to exit.
+[2025.04.07-18.57.17:522][204]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2025.04.07-18.57.17:553][204]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.07-18.57.17:554][204]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.07-18.57.17:556][204]LogPython: Display: Object '/Engine/PythonTypes.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.07-18.57.17:557][204]LogPython: Display: Object '/Engine/PythonTypes.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.07-18.57.17:557][204]LogPython: Display: Object '/Engine/PythonTypes.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.07-18.57.17:557][204]LogPython: Display: Object '/Engine/PythonTypes.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.07-18.57.17:557][204]LogPython: Display: Object '/Engine/PythonTypes.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.07-18.57.17:557][204]LogPython: Display: Object '/Engine/PythonTypes.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.07-18.57.17:557][204]LogPython: Display: Object '/Engine/PythonTypes.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.07-18.57.17:557][204]LogPython: Display: Object '/Engine/PythonTypes.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.07-18.57.17:557][204]LogPython: Display: Object '/Engine/PythonTypes.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.07-18.57.17:557][204]LogPython: Display: Object '/Engine/PythonTypes.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.07-18.57.17:558][204]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.07-18.57.17:558][204]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.07-18.57.17:558][204]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.07-18.57.17:558][204]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.07-18.57.17:558][204]LogPython: Display: Object '/Engine/PythonTypes.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.07-18.57.17:558][204]LogPython: Display: Object '/Engine/PythonTypes.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.07-18.57.17:558][204]LogPython: Display: Object '/Engine/PythonTypes.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.07-18.57.17:559][204]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.07-18.57.18:539][204]LogWorld: UWorld::CleanupWorld for World_90, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.18:543][204]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.18:547][204]LogWorld: UWorld::CleanupWorld for World_130, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.18:550][204]LogWorld: UWorld::CleanupWorld for World_131, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.18:551][204]LogWorld: UWorld::CleanupWorld for World_132, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.18:553][204]LogWorld: UWorld::CleanupWorld for World_133, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.18:554][204]LogWorld: UWorld::CleanupWorld for World_134, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.18:556][204]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.18:557][204]LogWorld: UWorld::CleanupWorld for World_128, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.18:559][204]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.18:560][204]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.18:561][204]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.18:564][204]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.18:564][204]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.18:566][204]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.18:567][204]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.18:568][204]LogWorld: UWorld::CleanupWorld for World_135, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.18:570][204]LogWorld: UWorld::CleanupWorld for World_150, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.18:571][204]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.18:572][204]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.18:574][204]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.18:575][204]LogWorld: UWorld::CleanupWorld for World_49, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.18:577][204]LogWorld: UWorld::CleanupWorld for World_80, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.18:578][204]LogWorld: UWorld::CleanupWorld for World_81, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.18:579][204]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.18:581][204]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.18:582][204]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.18:584][204]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.18:585][204]LogWorld: UWorld::CleanupWorld for World_140, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.18:586][204]LogWorld: UWorld::CleanupWorld for World_141, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.18:588][204]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.18:692][204]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.18:696][204]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.18:700][204]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.18:703][204]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.18:707][204]LogWorld: UWorld::CleanupWorld for World_51, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.18:709][204]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.18:711][204]LogWorld: UWorld::CleanupWorld for World_52, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.18:712][204]LogWorld: UWorld::CleanupWorld for World_57, bSessionEnded=true, bCleanupResources=true
+[2025.04.07-18.57.18:827][204]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.04.07-18.57.18:875][204]LogExit: Editor shut down
+[2025.04.07-18.57.18:882][204]LogExit: Transaction tracking system shut down
+[2025.04.07-18.57.19:294][204]LogExit: Object subsystem successfully closed.
+[2025.04.07-18.57.19:299][204]LogShaderCompilers: Display: ================================================
+[2025.04.07-18.57.19:299][204]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.04.07-18.57.19:299][204]LogShaderCompilers: Display: Total job queries 738, among them cache hits 405 (54.88%)
+[2025.04.07-18.57.19:299][204]LogShaderCompilers: Display: Tracking 333 distinct input hashes that result in 203 distinct outputs (60.96%)
+[2025.04.07-18.57.19:299][204]LogShaderCompilers: Display: RAM used: 7,85 MiB of 819,20 MiB budget. Usage: 0.96%
+[2025.04.07-18.57.19:299][204]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.04.07-18.57.19:299][204]LogShaderCompilers: Display: Shaders Compiled: 100
+[2025.04.07-18.57.19:299][204]LogShaderCompilers: Display: Jobs assigned 100, completed 100 (100%)
+[2025.04.07-18.57.19:299][204]LogShaderCompilers: Display: Average time worker was idle: 238.10 s
+[2025.04.07-18.57.19:299][204]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.66 s
+[2025.04.07-18.57.19:299][204]LogShaderCompilers: Display: Job execution time: average 0.47 s, max 1.26 s
+[2025.04.07-18.57.19:299][204]LogShaderCompilers: Display: Job life time (pending + execution): average 0.52 s, max 1.30
+[2025.04.07-18.57.19:299][204]LogShaderCompilers: Display: Shader code size: average 36,722 KiB, min 1,877 KiB, max 71,16 KiB
+[2025.04.07-18.57.19:299][204]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 17.55 s
+[2025.04.07-18.57.19:299][204]LogShaderCompilers: Display: Jobs were issued in 100 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.04.07-18.57.19:299][204]LogShaderCompilers: Display: Average processing rate: 5.70 jobs/sec
+[2025.04.07-18.57.19:299][204]LogShaderCompilers: Display: Total thread time: 29,432 s
+[2025.04.07-18.57.19:299][204]LogShaderCompilers: Display: Total thread preprocess time: 2,687 s
+[2025.04.07-18.57.19:299][204]LogShaderCompilers: Display: Percentage time preprocessing: 9.13%
+[2025.04.07-18.57.19:299][204]LogShaderCompilers: Display: Effective parallelization: 1.68 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.04.07-18.57.19:299][204]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.04.07-18.57.19:299][204]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    2 times, average 0.52 sec, max 0.58 sec, min 0.47 sec)
+[2025.04.07-18.57.19:299][204]LogShaderCompilers: Display:                                          TDepthOnlyVS<false> (compiled    2 times, average 0.42 sec, max 0.49 sec, min 0.35 sec)
+[2025.04.07-18.57.19:299][204]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   22 times, average 0.37 sec, max 0.58 sec, min 0.25 sec)
+[2025.04.07-18.57.19:299][204]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   20 times, average 0.37 sec, max 0.76 sec, min 0.26 sec)
+[2025.04.07-18.57.19:299][204]LogShaderCompilers: Display:                                                  FVelocityVS (compiled    4 times, average 0.35 sec, max 0.41 sec, min 0.25 sec)
+[2025.04.07-18.57.19:299][204]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.04.07-18.57.19:299][204]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 27.74% of total time (compiled   22 times, average 0.37 sec, max 0.58 sec, min 0.25 sec)
+[2025.04.07-18.57.19:299][204]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 25.20% of total time (compiled   20 times, average 0.37 sec, max 0.76 sec, min 0.26 sec)
+[2025.04.07-18.57.19:299][204]LogShaderCompilers: Display:                                               FNiagaraShader - 10.42% of total time (compiled   24 times, average 0.13 sec, max 0.57 sec, min 0.05 sec)
+[2025.04.07-18.57.19:299][204]LogShaderCompilers: Display:                                                 FLumenCardVS - 7.89% of total time (compiled    7 times, average 0.33 sec, max 0.49 sec, min 0.24 sec)
+[2025.04.07-18.57.19:299][204]LogShaderCompilers: Display:                                                  FVelocityVS - 4.75% of total time (compiled    4 times, average 0.35 sec, max 0.41 sec, min 0.25 sec)
+[2025.04.07-18.57.19:300][204]LogShaderCompilers: Display: ================================================
+[2025.04.07-18.57.19:348][204]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.04.07-18.57.19:383][204]LogVirtualization: UE::Virtualization was shutdown
+[2025.04.07-18.57.19:461][204]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (1066)
+[2025.04.07-18.57.19:461][204]LogModuleManager: Shutting down and abandoning module PhysicsAssetEditor (1064)
+[2025.04.07-18.57.19:461][204]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (1060)
+[2025.04.07-18.57.19:461][204]LogModuleManager: Shutting down and abandoning module Voice (1058)
+[2025.04.07-18.57.19:461][204]LogModuleManager: Shutting down and abandoning module SequencerWidgets (1056)
+[2025.04.07-18.57.19:461][204]LogModuleManager: Shutting down and abandoning module AnimationEditor (1054)
+[2025.04.07-18.57.19:461][204]LogModuleManager: Shutting down and abandoning module PinnedCommandList (1052)
+[2025.04.07-18.57.19:461][204]LogModuleManager: Shutting down and abandoning module SkeletonEditor (1050)
+[2025.04.07-18.57.19:461][204]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (1048)
+[2025.04.07-18.57.19:461][204]LogModuleManager: Shutting down and abandoning module SceneOutliner (1046)
+[2025.04.07-18.57.19:461][204]LogModuleManager: Shutting down and abandoning module SubobjectEditor (1044)
+[2025.04.07-18.57.19:461][204]LogModuleManager: Shutting down and abandoning module AddContentDialog (1042)
+[2025.04.07-18.57.19:462][204]LogModuleManager: Shutting down and abandoning module WidgetCarousel (1041)
+[2025.04.07-18.57.19:462][204]LogModuleManager: Shutting down and abandoning module StatusBar (1038)
+[2025.04.07-18.57.19:462][204]LogModuleManager: Shutting down and abandoning module UnsavedAssetsTracker (1036)
+[2025.04.07-18.57.19:462][204]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (1034)
+[2025.04.07-18.57.19:463][204]LogModuleManager: Shutting down and abandoning module StatsViewer (1032)
+[2025.04.07-18.57.19:463][204]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (1030)
+[2025.04.07-18.57.19:463][204]LogModuleManager: Shutting down and abandoning module AutomationWorker (1028)
+[2025.04.07-18.57.19:463][204]LogModuleManager: Shutting down and abandoning module SmartSnapping (1026)
+[2025.04.07-18.57.19:463][204]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (1024)
+[2025.04.07-18.57.19:463][204]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (1022)
+[2025.04.07-18.57.19:464][204]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (1020)
+[2025.04.07-18.57.19:464][204]LogModuleManager: Shutting down and abandoning module TextureAlignMode (1018)
+[2025.04.07-18.57.19:464][204]LogModuleManager: Shutting down and abandoning module BspMode (1016)
+[2025.04.07-18.57.19:464][204]LogModuleManager: Shutting down and abandoning module GeometryMode (1014)
+[2025.04.07-18.57.19:464][204]LogModuleManager: Shutting down and abandoning module EngineAssetDefinitions (1012)
+[2025.04.07-18.57.19:464][204]LogModuleManager: Shutting down and abandoning module PlanarCut (1010)
+[2025.04.07-18.57.19:465][204]LogModuleManager: Shutting down and abandoning module FractureEngine (1008)
+[2025.04.07-18.57.19:465][204]LogModuleManager: Shutting down and abandoning module CharacterAI (1006)
+[2025.04.07-18.57.19:465][204]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (1004)
+[2025.04.07-18.57.19:466][204]LogModuleManager: Shutting down and abandoning module WaveTableEditor (1002)
+[2025.04.07-18.57.19:467][204]LogModuleManager: Shutting down and abandoning module RigVMEditor (1000)
+[2025.04.07-18.57.19:468][204]LogModuleManager: Shutting down and abandoning module ResonanceAudioEditor (998)
+[2025.04.07-18.57.19:468][204]LogModuleManager: Shutting down and abandoning module GooglePADEditor (996)
+[2025.04.07-18.57.19:468][204]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (994)
+[2025.04.07-18.57.19:468][204]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (992)
+[2025.04.07-18.57.19:469][204]LogModuleManager: Shutting down and abandoning module SequenceRecorder (991)
+[2025.04.07-18.57.19:469][204]LogModuleManager: Shutting down and abandoning module AndroidFileServerEditor (988)
+[2025.04.07-18.57.19:469][204]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (986)
+[2025.04.07-18.57.19:469][204]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (984)
+[2025.04.07-18.57.19:469][204]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (982)
+[2025.04.07-18.57.19:470][204]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (980)
+[2025.04.07-18.57.19:470][204]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (978)
+[2025.04.07-18.57.19:470][204]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (976)
+[2025.04.07-18.57.19:470][204]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (974)
+[2025.04.07-18.57.19:470][204]LogModuleManager: Shutting down and abandoning module WebMMedia (972)
+[2025.04.07-18.57.19:470][204]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (970)
+[2025.04.07-18.57.19:471][204]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (968)
+[2025.04.07-18.57.19:471][204]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (966)
+[2025.04.07-18.57.19:471][204]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (964)
+[2025.04.07-18.57.19:471][204]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (962)
+[2025.04.07-18.57.19:471][204]LogModuleManager: Shutting down and abandoning module IKRigEditor (960)
+[2025.04.07-18.57.19:471][204]LogModuleManager: Shutting down and abandoning module ControlRigEditor (958)
+[2025.04.07-18.57.19:471][204]LogModuleManager: Shutting down and abandoning module SessionServices (956)
+[2025.04.07-18.57.19:472][204]LogModuleManager: Shutting down and abandoning module MeshPaint (954)
+[2025.04.07-18.57.19:472][204]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (952)
+[2025.04.07-18.57.19:473][204]LogModuleManager: Shutting down and abandoning module PlacementMode (951)
+[2025.04.07-18.57.19:474][204]LogModuleManager: Shutting down and abandoning module FoliageEdit (948)
+[2025.04.07-18.57.19:475][204]LogModuleManager: Shutting down and abandoning module LandscapeEditor (946)
+[2025.04.07-18.57.19:477][204]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (944)
+[2025.04.07-18.57.19:477][204]LogModuleManager: Shutting down and abandoning module ActorPickerMode (942)
+[2025.04.07-18.57.19:477][204]LogModuleManager: Shutting down and abandoning module ViewportSnapping (940)
+[2025.04.07-18.57.19:477][204]LogModuleManager: Shutting down and abandoning module EditorWidgets (938)
+[2025.04.07-18.57.19:477][204]LogModuleManager: Shutting down and abandoning module ViewportInteraction (936)
+[2025.04.07-18.57.19:477][204]LogModuleManager: Shutting down and abandoning module ClothPainter (934)
+[2025.04.07-18.57.19:478][204]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (933)
+[2025.04.07-18.57.19:478][204]LogModuleManager: Shutting down and abandoning module WidgetRegistration (930)
+[2025.04.07-18.57.19:478][204]LogModuleManager: Shutting down and abandoning module LogVisualizer (928)
+[2025.04.07-18.57.19:479][204]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (926)
+[2025.04.07-18.57.19:479][204]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (924)
+[2025.04.07-18.57.19:479][204]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (923)
+[2025.04.07-18.57.19:479][204]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (921)
+[2025.04.07-18.57.19:664][204]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (918)
+[2025.04.07-18.57.19:664][204]LogModuleManager: Shutting down and abandoning module MacPlatformEditor (916)
+[2025.04.07-18.57.19:664][204]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (914)
+[2025.04.07-18.57.19:664][204]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (912)
+[2025.04.07-18.57.19:664][204]LogModuleManager: Shutting down and abandoning module RenderResourceViewer (910)
+[2025.04.07-18.57.19:665][204]LogModuleManager: Shutting down and abandoning module GameplayDebuggerEditor (908)
+[2025.04.07-18.57.19:665][204]LogModuleManager: Shutting down and abandoning module AnimationSettings (906)
+[2025.04.07-18.57.19:665][204]LogModuleManager: Shutting down and abandoning module VirtualizationEditor (904)
+[2025.04.07-18.57.19:665][204]LogModuleManager: Shutting down and abandoning module CSVtoSVG (902)
+[2025.04.07-18.57.19:665][204]LogModuleManager: Shutting down and abandoning module DerivedDataEditor (900)
+[2025.04.07-18.57.19:665][204]LogModuleManager: Shutting down and abandoning module EditorConfig (898)
+[2025.04.07-18.57.19:665][204]LogModuleManager: Shutting down and abandoning module EditorFramework (896)
+[2025.04.07-18.57.19:665][204]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (894)
+[2025.04.07-18.57.19:667][204]LogModuleManager: Shutting down and abandoning module TraceInsights (892)
+[2025.04.07-18.57.19:671][204]MemoryProfiler: Shutdown
+[2025.04.07-18.57.19:671][204]NetworkingProfiler: Shutdown
+[2025.04.07-18.57.19:672][204]LoadingProfiler: Shutdown
+[2025.04.07-18.57.19:672][204]TimingProfiler: Shutdown
+[2025.04.07-18.57.19:675][204]LogModuleManager: Shutting down and abandoning module TraceServices (891)
+[2025.04.07-18.57.19:676][204]LogModuleManager: Shutting down and abandoning module TraceAnalysis (890)
+[2025.04.07-18.57.19:676][204]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (886)
+[2025.04.07-18.57.19:676][204]LogModuleManager: Shutting down and abandoning module InteractiveToolsFramework (885)
+[2025.04.07-18.57.19:676][204]LogModuleManager: Shutting down and abandoning module InputBindingEditor (882)
+[2025.04.07-18.57.19:676][204]LogModuleManager: Shutting down and abandoning module MergeActors (880)
+[2025.04.07-18.57.19:676][204]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (878)
+[2025.04.07-18.57.19:677][204]LogModuleManager: Shutting down and abandoning module LocalizationService (877)
+[2025.04.07-18.57.19:677][204]LogModuleManager: Shutting down and abandoning module HardwareTargeting (874)
+[2025.04.07-18.57.19:677][204]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (872)
+[2025.04.07-18.57.19:677][204]LogModuleManager: Shutting down and abandoning module UndoHistory (870)
+[2025.04.07-18.57.19:677][204]LogModuleManager: Shutting down and abandoning module XmlParser (868)
+[2025.04.07-18.57.19:677][204]LogModuleManager: Shutting down and abandoning module Blutility (866)
+[2025.04.07-18.57.19:677][204]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (864)
+[2025.04.07-18.57.19:677][204]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (863)
+[2025.04.07-18.57.19:678][204]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (860)
+[2025.04.07-18.57.19:678][204]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (859)
+[2025.04.07-18.57.19:678][204]LogModuleManager: Shutting down and abandoning module SettingsEditor (856)
+[2025.04.07-18.57.19:678][204]LogModuleManager: Shutting down and abandoning module ProjectLauncher (854)
+[2025.04.07-18.57.19:678][204]LogModuleManager: Shutting down and abandoning module SessionFrontend (852)
+[2025.04.07-18.57.19:679][204]LogModuleManager: Shutting down and abandoning module ProfilerClient (850)
+[2025.04.07-18.57.19:679][204]LogModuleManager: Shutting down and abandoning module DeviceManager (848)
+[2025.04.07-18.57.19:679][204]LogModuleManager: Shutting down and abandoning module AutomationController (846)
+[2025.04.07-18.57.19:679][204]LogModuleManager: Shutting down and abandoning module AutomationWindow (844)
+[2025.04.07-18.57.19:681][204]LogModuleManager: Shutting down and abandoning module Layers (842)
+[2025.04.07-18.57.19:683][204]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (840)
+[2025.04.07-18.57.19:683][204]LogModuleManager: Shutting down and abandoning module DetailCustomizations (838)
+[2025.04.07-18.57.19:683][204]LogModuleManager: Shutting down and abandoning module PackagesDialog (836)
+[2025.04.07-18.57.19:683][204]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (834)
+[2025.04.07-18.57.19:683][204]LogModuleManager: Shutting down and abandoning module Persona (832)
+[2025.04.07-18.57.19:683][204]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (831)
+[2025.04.07-18.57.19:683][204]LogModuleManager: Shutting down and abandoning module Kismet (828)
+[2025.04.07-18.57.19:694][204]LogModuleManager: Shutting down and abandoning module KismetWidgets (827)
+[2025.04.07-18.57.19:694][204]LogModuleManager: Shutting down and abandoning module GraphEditor (824)
+[2025.04.07-18.57.19:694][204]LogModuleManager: Shutting down and abandoning module StructViewer (822)
+[2025.04.07-18.57.19:694][204]LogModuleManager: Shutting down and abandoning module ClassViewer (820)
+[2025.04.07-18.57.19:697][204]LogModuleManager: Shutting down and abandoning module UncontrolledChangelists (818)
+[2025.04.07-18.57.19:697][204]LogModuleManager: Shutting down and abandoning module SourceControlWindowExtender (816)
+[2025.04.07-18.57.19:697][204]LogModuleManager: Shutting down and abandoning module SourceControlWindows (814)
+[2025.04.07-18.57.19:697][204]LogModuleManager: Shutting down and abandoning module OutputLog (812)
+[2025.04.07-18.57.19:699][204]LogModuleManager: Shutting down and abandoning module Documentation (810)
+[2025.04.07-18.57.19:699][204]LogModuleManager: Shutting down and abandoning module SparseVolumeTexture (808)
+[2025.04.07-18.57.19:699][204]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (806)
+[2025.04.07-18.57.19:699][204]LogModuleManager: Shutting down and abandoning module MovieScene (804)
+[2025.04.07-18.57.19:699][204]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (802)
+[2025.04.07-18.57.19:700][204]LogModuleManager: Shutting down and abandoning module BinkAudioDecoder (800)
+[2025.04.07-18.57.19:700][204]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (798)
+[2025.04.07-18.57.19:700][204]LogModuleManager: Shutting down and abandoning module AudioMixer (797)
+[2025.04.07-18.57.19:700][204]LogModuleManager: Shutting down and abandoning module AudioMixerCore (796)
+[2025.04.07-18.57.19:700][204]LogModuleManager: Shutting down and abandoning module LauncherPlatform (792)
+[2025.04.07-18.57.19:700][204]LogModuleManager: Shutting down and abandoning module AnalyticsET (790)
+[2025.04.07-18.57.19:700][204]LogModuleManager: Shutting down and abandoning module PortalServices (788)
+[2025.04.07-18.57.19:700][204]LogModuleManager: Shutting down and abandoning module PortalRpc (786)
+[2025.04.07-18.57.19:700][204]LogModuleManager: Shutting down and abandoning module MessagingRpc (784)
+[2025.04.07-18.57.19:700][204]LogModuleManager: Shutting down and abandoning module AIModule (782)
+[2025.04.07-18.57.19:700][204]LogModuleManager: Shutting down and abandoning module GameplayDebugger (781)
+[2025.04.07-18.57.19:700][204]LogModuleManager: Shutting down and abandoning module AITestSuite (779)
+[2025.04.07-18.57.19:700][204]LogModuleManager: Shutting down and abandoning module NavigationSystem (777)
+[2025.04.07-18.57.19:700][204]LogModuleManager: Shutting down and abandoning module LevelInstanceEditor (774)
+[2025.04.07-18.57.19:700][204]LogModuleManager: Shutting down and abandoning module TypedElementRuntime (772)
+[2025.04.07-18.57.19:700][204]LogModuleManager: Shutting down and abandoning module TypedElementFramework (770)
+[2025.04.07-18.57.19:700][204]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (768)
+[2025.04.07-18.57.19:700][204]LogModuleManager: Shutting down and abandoning module ProfilerService (766)
+[2025.04.07-18.57.19:797][204]LogModuleManager: Shutting down and abandoning module ProfileVisualizer (764)
+[2025.04.07-18.57.19:799][204]LogModuleManager: Shutting down and abandoning module CacheTrackRecorder (762)
+[2025.04.07-18.57.19:799][204]LogModuleManager: Shutting down and abandoning module TakeRecorderSources (760)
+[2025.04.07-18.57.19:800][204]LogModuleManager: Shutting down and abandoning module TakeTrackRecorders (758)
+[2025.04.07-18.57.19:800][204]LogModuleManager: Shutting down and abandoning module TakesCore (756)
+[2025.04.07-18.57.19:800][204]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (754)
+[2025.04.07-18.57.19:800][204]LogModuleManager: Shutting down and abandoning module MegascansPlugin (752)
+[2025.04.07-18.57.19:801][204]LogModuleManager: Shutting down and abandoning module Bridge (750)
+[2025.04.07-18.57.19:801][204]LogModuleManager: Shutting down and abandoning module ContentBrowserFileDataSource (748)
+[2025.04.07-18.57.19:801][204]LogModuleManager: Shutting down and abandoning module LightMixer (746)
+[2025.04.07-18.57.19:802][204]LogModuleManager: Shutting down and abandoning module ObjectMixerEditor (744)
+[2025.04.07-18.57.19:802][204]LogModuleManager: Shutting down and abandoning module PortableObjectFileDataSource (742)
+[2025.04.07-18.57.19:802][204]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (740)
+[2025.04.07-18.57.19:802][204]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (738)
+[2025.04.07-18.57.19:802][204]LogModuleManager: Shutting down and abandoning module CollectionManager (737)
+[2025.04.07-18.57.19:803][204]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (734)
+[2025.04.07-18.57.19:803][204]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (732)
+[2025.04.07-18.57.19:803][204]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (730)
+[2025.04.07-18.57.19:803][204]LogModuleManager: Shutting down and abandoning module LocalizableMessageBlueprint (728)
+[2025.04.07-18.57.19:803][204]LogModuleManager: Shutting down and abandoning module LocalizableMessage (726)
+[2025.04.07-18.57.19:803][204]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (724)
+[2025.04.07-18.57.19:803][204]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (722)
+[2025.04.07-18.57.19:803][204]LogModuleManager: Shutting down and abandoning module Paper2DEditor (720)
+[2025.04.07-18.57.19:803][204]LogModuleManager: Shutting down and abandoning module InterchangeTestEditor (716)
+[2025.04.07-18.57.19:804][204]LogModuleManager: Shutting down and abandoning module InterchangeTests (714)
+[2025.04.07-18.57.19:804][204]LogModuleManager: Shutting down and abandoning module TakeSequencer (712)
+[2025.04.07-18.57.19:804][204]LogModuleManager: Shutting down and abandoning module TakeMovieScene (710)
+[2025.04.07-18.57.19:804][204]LogModuleManager: Shutting down and abandoning module SequencerScriptingEditor (708)
+[2025.04.07-18.57.19:804][204]LogModuleManager: Shutting down and abandoning module SequencerScripting (706)
+[2025.04.07-18.57.19:804][204]LogModuleManager: Shutting down and abandoning module TemplateSequence (704)
+[2025.04.07-18.57.19:804][204]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (702)
+[2025.04.07-18.57.19:804][204]LogModuleManager: Shutting down and abandoning module AlembicImporter (700)
+[2025.04.07-18.57.19:804][204]LogModuleManager: Shutting down and abandoning module AlembicLibrary (699)
+[2025.04.07-18.57.19:805][204]LogModuleManager: Shutting down and abandoning module GeometryCache (698)
+[2025.04.07-18.57.19:805][204]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (697)
+[2025.04.07-18.57.19:805][204]LogModuleManager: Shutting down and abandoning module ModelingToolsEditorMode (692)
+[2025.04.07-18.57.19:807][204]LogModuleManager: Shutting down and abandoning module WorldPartitionHLODUtilities (690)
+[2025.04.07-18.57.19:807][204]LogModuleManager: Shutting down and abandoning module UVEditorToolsEditorOnly (688)
+[2025.04.07-18.57.19:807][204]LogModuleManager: Shutting down and abandoning module UVEditorTools (686)
+[2025.04.07-18.57.19:807][204]LogModuleManager: Shutting down and abandoning module UVEditor (684)
+[2025.04.07-18.57.19:807][204]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (682)
+[2025.04.07-18.57.19:807][204]LogModuleManager: Shutting down and abandoning module SequencerAnimTools (680)
+[2025.04.07-18.57.19:807][204]LogModuleManager: Shutting down and abandoning module PluginBrowser (678)
+[2025.04.07-18.57.19:808][204]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (676)
+[2025.04.07-18.57.19:809][204]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (674)
+[2025.04.07-18.57.19:809][204]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (672)
+[2025.04.07-18.57.19:809][204]LogModuleManager: Shutting down and abandoning module CryptoKeys (670)
+[2025.04.07-18.57.19:809][204]LogModuleManager: Shutting down and abandoning module EditorDebugTools (668)
+[2025.04.07-18.57.19:810][204]LogModuleManager: Shutting down and abandoning module CurveEditorTools (666)
+[2025.04.07-18.57.19:810][204]LogModuleManager: Shutting down and abandoning module ChangelistReview (664)
+[2025.04.07-18.57.19:810][204]LogModuleManager: Shutting down and abandoning module BlueprintHeaderView (662)
+[2025.04.07-18.57.19:811][204]LogModuleManager: Shutting down and abandoning module MeshLODToolset (660)
+[2025.04.07-18.57.19:811][204]LogModuleManager: Shutting down and abandoning module ToolPresetEditor (658)
+[2025.04.07-18.57.19:811][204]LogModuleManager: Shutting down and abandoning module ToolPresetAsset (656)
+[2025.04.07-18.57.19:811][204]LogModuleManager: Shutting down and abandoning module StructUtilsTestSuite (654)
+[2025.04.07-18.57.19:811][204]LogModuleManager: Shutting down and abandoning module StructUtilsNodes (652)
+[2025.04.07-18.57.19:811][204]LogModuleManager: Shutting down and abandoning module StructUtilsEditor (650)
+[2025.04.07-18.57.19:811][204]LogModuleManager: Shutting down and abandoning module StructUtilsEngine (648)
+[2025.04.07-18.57.19:811][204]LogModuleManager: Shutting down and abandoning module OpenImageDenoise (646)
+[2025.04.07-18.57.19:811][204]LogOpenImageDenoise: OIDN shutting down
+[2025.04.07-18.57.19:811][204]LogModuleManager: Shutting down and abandoning module SkeletalMeshModifiers (644)
+[2025.04.07-18.57.19:811][204]LogModuleManager: Shutting down and abandoning module ModelingEditorUI (642)
+[2025.04.07-18.57.19:811][204]LogModuleManager: Shutting down and abandoning module GeometryProcessingAdapters (640)
+[2025.04.07-18.57.19:812][204]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnlyExp (638)
+[2025.04.07-18.57.19:812][204]LogModuleManager: Shutting down and abandoning module MeshModelingToolsExp (636)
+[2025.04.07-18.57.19:812][204]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessingEditor (634)
+[2025.04.07-18.57.19:812][204]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessing (632)
+[2025.04.07-18.57.19:813][204]LogModuleManager: Shutting down and abandoning module GeometryFlowCore (630)
+[2025.04.07-18.57.19:813][204]LogModuleManager: Shutting down and abandoning module GeometryCollectionNodes (628)
+[2025.04.07-18.57.19:813][204]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (626)
+[2025.04.07-18.57.19:813][204]LogModuleManager: Shutting down and abandoning module GeometryCollectionEngine (625)
+[2025.04.07-18.57.19:813][204]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (623)
+[2025.04.07-18.57.19:813][204]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (620)
+[2025.04.07-18.57.19:813][204]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (618)
+[2025.04.07-18.57.19:813][204]LogModuleManager: Shutting down and abandoning module DataflowNodes (616)
+[2025.04.07-18.57.19:813][204]LogModuleManager: Shutting down and abandoning module DataflowEnginePlugin (614)
+[2025.04.07-18.57.19:813][204]LogModuleManager: Shutting down and abandoning module DataflowEditor (612)
+[2025.04.07-18.57.19:813][204]LogModuleManager: Shutting down and abandoning module ChaosUserDataPT (610)
+[2025.04.07-18.57.19:813][204]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (608)
+[2025.04.07-18.57.19:813][204]LogModuleManager: Shutting down and abandoning module ChaosNiagara (606)
+[2025.04.07-18.57.19:813][204]LogModuleManager: Shutting down and abandoning module FractureEditor (604)
+[2025.04.07-18.57.19:814][204]LogModuleManager: Shutting down and abandoning module BackChannel (602)
+[2025.04.07-18.57.19:814][204]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (600)
+[2025.04.07-18.57.19:814][204]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (598)
+[2025.04.07-18.57.19:814][204]LogModuleManager: Shutting down and abandoning module AutomationUtils (596)
+[2025.04.07-18.57.19:814][204]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (594)
+[2025.04.07-18.57.19:817][204]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (592)
+[2025.04.07-18.57.19:817][204]LogModuleManager: Shutting down and abandoning module SynthesisEditor (590)
+[2025.04.07-18.57.19:817][204]LogModuleManager: Shutting down and abandoning module ResonanceAudio (588)
+[2025.04.07-18.57.19:817][204]LogModuleManager: Shutting down and abandoning module ModelingOperatorsEditorOnly (586)
+[2025.04.07-18.57.19:817][204]LogModuleManager: Shutting down and abandoning module ModelingOperators (584)
+[2025.04.07-18.57.19:817][204]LogModuleManager: Shutting down and abandoning module ModelingComponentsEditorOnly (582)
+[2025.04.07-18.57.19:817][204]LogModuleManager: Shutting down and abandoning module ModelingComponents (580)
+[2025.04.07-18.57.19:818][204]LogModuleManager: Shutting down and abandoning module GeometryFramework (579)
+[2025.04.07-18.57.19:818][204]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnly (576)
+[2025.04.07-18.57.19:818][204]LogModuleManager: Shutting down and abandoning module MeshModelingTools (574)
+[2025.04.07-18.57.19:818][204]LogModuleManager: Shutting down and abandoning module InputDebuggingEditor (572)
+[2025.04.07-18.57.19:818][204]LogModuleManager: Shutting down and abandoning module InputDebugging (570)
+[2025.04.07-18.57.19:818][204]LogModuleManager: Shutting down and abandoning module DynamicMesh (568)
+[2025.04.07-18.57.19:818][204]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (566)
+[2025.04.07-18.57.19:819][204]LogModuleManager: Shutting down and abandoning module GooglePAD (564)
+[2025.04.07-18.57.19:819][204]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (562)
+[2025.04.07-18.57.19:819][204]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (560)
+[2025.04.07-18.57.19:819][204]LogModuleManager: Shutting down and abandoning module AudioCapture (558)
+[2025.04.07-18.57.19:819][204]LogModuleManager: Shutting down and abandoning module AudioCaptureWasapi (557)
+[2025.04.07-18.57.19:819][204]LogModuleManager: Shutting down and abandoning module AssetTags (554)
+[2025.04.07-18.57.19:819][204]LogModuleManager: Shutting down and abandoning module MediaCompositing (552)
+[2025.04.07-18.57.19:819][204]LogModuleManager: Shutting down and abandoning module AndroidPermission (550)
+[2025.04.07-18.57.19:819][204]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (548)
+[2025.04.07-18.57.19:819][204]LogModuleManager: Shutting down and abandoning module AppleImageUtils (546)
+[2025.04.07-18.57.19:819][204]LogModuleManager: Shutting down and abandoning module ImgMedia (544)
+[2025.04.07-18.57.19:819][204]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (542)
+[2025.04.07-18.57.19:820][204]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (540)
+[2025.04.07-18.57.19:820][204]LogModuleManager: Shutting down and abandoning module MediaPlateEditor (538)
+[2025.04.07-18.57.19:821][204]LogModuleManager: Shutting down and abandoning module MediaPlate (536)
+[2025.04.07-18.57.19:821][204]LogModuleManager: Shutting down and abandoning module VariantManager (534)
+[2025.04.07-18.57.19:821][204]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (532)
+[2025.04.07-18.57.19:821][204]LogModuleManager: Shutting down and abandoning module InterchangeFbxParser (530)
+[2025.04.07-18.57.19:821][204]LogModuleManager: Shutting down and abandoning module InterchangeCommonParser (528)
+[2025.04.07-18.57.19:822][204]LogModuleManager: Shutting down and abandoning module InterchangeDispatcher (526)
+[2025.04.07-18.57.19:822][204]LogModuleManager: Shutting down and abandoning module InterchangeExport (524)
+[2025.04.07-18.57.19:822][204]LogModuleManager: Shutting down and abandoning module InterchangeMessages (522)
+[2025.04.07-18.57.19:822][204]LogModuleManager: Shutting down and abandoning module GLTFCore (520)
+[2025.04.07-18.57.19:822][204]LogModuleManager: Shutting down and abandoning module InterchangeEditorUtilities (518)
+[2025.04.07-18.57.19:822][204]LogModuleManager: Shutting down and abandoning module InterchangeEditorPipelines (516)
+[2025.04.07-18.57.19:822][204]LogModuleManager: Shutting down and abandoning module InterchangeEditor (514)
+[2025.04.07-18.57.19:822][204]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (512)
+[2025.04.07-18.57.19:822][204]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (510)
+[2025.04.07-18.57.19:822][204]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (508)
+[2025.04.07-18.57.19:822][204]LogModuleManager: Shutting down and abandoning module UObjectPlugin (506)
+[2025.04.07-18.57.19:822][204]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (504)
+[2025.04.07-18.57.19:822][204]LogModuleManager: Shutting down and abandoning module PluginUtils (502)
+[2025.04.07-18.57.19:822][204]LogModuleManager: Shutting down and abandoning module N10XSourceCodeAccess (500)
+[2025.04.07-18.57.19:822][204]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (498)
+[2025.04.07-18.57.19:822][204]LogModuleManager: Shutting down and abandoning module GitSourceControl (496)
+[2025.04.07-18.57.19:823][204]LogModuleManager: Shutting down and abandoning module DumpGPUServices (494)
+[2025.04.07-18.57.19:823][204]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (492)
+[2025.04.07-18.57.19:823][204]LogModuleManager: Shutting down and abandoning module BlendSpaceMotionAnalysis (490)
+[2025.04.07-18.57.19:823][204]LogModuleManager: Shutting down and abandoning module ControlRigSpline (488)
+[2025.04.07-18.57.19:823][204]LogModuleManager: Shutting down and abandoning module ACLPluginEditor (486)
+[2025.04.07-18.57.19:823][204]LogModuleManager: Shutting down and abandoning module AnimationModifierLibrary (484)
+[2025.04.07-18.57.19:823][204]LogModuleManager: Shutting down and abandoning module OodleNetworkHandlerComponent (482)
+[2025.04.07-18.57.19:823][204]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (480)
+[2025.04.07-18.57.19:823][204]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (478)
+[2025.04.07-18.57.19:823][204]LogModuleManager: Shutting down and abandoning module EditorTraceUtilities (476)
+[2025.04.07-18.57.19:823][204]LogModuleManager: Shutting down and abandoning module TraceUtilities (474)
+[2025.04.07-18.57.19:823][204]LogModuleManager: Shutting down and abandoning module InputEditor (472)
+[2025.04.07-18.57.19:824][204]LogModuleManager: Shutting down and abandoning module Paper2D (470)
+[2025.04.07-18.57.19:824][204]LogModuleManager: Shutting down and abandoning module ActorSequence (468)
+[2025.04.07-18.57.19:824][204]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (466)
+[2025.04.07-18.57.19:824][204]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (464)
+[2025.04.07-18.57.19:824][204]LogModuleManager: Shutting down and abandoning module FacialAnimation (462)
+[2025.04.07-18.57.19:824][204]LogModuleManager: Shutting down and abandoning module DataValidation (460)
+[2025.04.07-18.57.19:824][204]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (458)
+[2025.04.07-18.57.19:824][204]LogModuleManager: Shutting down and abandoning module TreeMap (457)
+[2025.04.07-18.57.19:824][204]LogModuleManager: Shutting down and abandoning module StructUtils (454)
+[2025.04.07-18.57.19:824][204]LogModuleManager: Shutting down and abandoning module PythonScriptPlugin (452)
+[2025.04.07-18.57.19:824][204]LogModuleManager: Shutting down and abandoning module PBIK (450)
+[2025.04.07-18.57.19:824][204]LogModuleManager: Shutting down and abandoning module FullBodyIK (448)
+[2025.04.07-18.57.19:824][204]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (446)
+[2025.04.07-18.57.19:824][204]LogModuleManager: Shutting down and abandoning module ChaosCachingEditor (444)
+[2025.04.07-18.57.19:824][204]LogModuleManager: Shutting down and abandoning module TakeRecorder (443)
+[2025.04.07-18.57.19:825][204]LogModuleManager: Shutting down and abandoning module LevelEditor (441)
+[2025.04.07-18.57.19:834][204]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (440)
+[2025.04.07-18.57.19:837][204]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (438)
+[2025.04.07-18.57.19:837][204]LogModuleManager: Shutting down and abandoning module MainFrame (436)
+[2025.04.07-18.57.19:837][204]LogModuleManager: Shutting down and abandoning module HotReload (435)
+[2025.04.07-18.57.19:837][204]LogModuleManager: Shutting down and abandoning module ChaosCaching (430)
+[2025.04.07-18.57.19:837][204]LogModuleManager: Shutting down and abandoning module TcpMessaging (428)
+[2025.04.07-18.57.19:938][204]LogModuleManager: Shutting down and abandoning module UdpMessaging (426)
+[2025.04.07-18.57.20:038][204]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (424)
+[2025.04.07-18.57.20:038][204]LogModuleManager: Shutting down and abandoning module Niagara (422)
+[2025.04.07-18.57.20:039][204]LogModuleManager: Shutting down and abandoning module NiagaraEditor (421)
+[2025.04.07-18.57.20:039][204]LogModuleManager: Shutting down and abandoning module ContentBrowser (420)
+[2025.04.07-18.57.20:039][204]LogModuleManager: Shutting down and abandoning module ContentBrowserData (419)
+[2025.04.07-18.57.20:039][204]LogModuleManager: Shutting down and abandoning module NiagaraCore (414)
+[2025.04.07-18.57.20:039][204]LogModuleManager: Shutting down and abandoning module GameplayCameras (412)
+[2025.04.07-18.57.20:039][204]LogModuleManager: Shutting down and abandoning module Synthesis (410)
+[2025.04.07-18.57.20:040][204]LogModuleManager: Shutting down and abandoning module SoundFields (408)
+[2025.04.07-18.57.20:040][204]LogModuleManager: Shutting down and abandoning module SignificanceManager (406)
+[2025.04.07-18.57.20:040][204]LogModuleManager: Shutting down and abandoning module RigVMDeveloper (404)
+[2025.04.07-18.57.20:040][204]LogModuleManager: Shutting down and abandoning module RigVM (402)
+[2025.04.07-18.57.20:040][204]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (400)
+[2025.04.07-18.57.20:040][204]LogModuleManager: Shutting down and abandoning module MsQuicRuntime (398)
+[2025.04.07-18.57.20:040][204]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (396)
+[2025.04.07-18.57.20:040][204]LogModuleManager: Shutting down and abandoning module MetasoundEditor (394)
+[2025.04.07-18.57.20:042][204]LogModuleManager: Shutting down and abandoning module ToolMenus (393)
+[2025.04.07-18.57.20:042][204]LogModuleManager: Shutting down and abandoning module AudioWidgets (391)
+[2025.04.07-18.57.20:042][204]LogModuleManager: Shutting down and abandoning module AdvancedWidgets (390)
+[2025.04.07-18.57.20:043][204]LogModuleManager: Shutting down and abandoning module MetasoundEngineTest (386)
+[2025.04.07-18.57.20:043][204]LogModuleManager: Shutting down and abandoning module MetasoundEngine (384)
+[2025.04.07-18.57.20:043][204]LogModuleManager: Shutting down and abandoning module WaveTable (383)
+[2025.04.07-18.57.20:043][204]LogModuleManager: Shutting down and abandoning module AudioCodecEngine (381)
+[2025.04.07-18.57.20:043][204]LogModuleManager: Shutting down and abandoning module MetasoundStandardNodes (378)
+[2025.04.07-18.57.20:043][204]LogModuleManager: Shutting down and abandoning module MetasoundFrontend (376)
+[2025.04.07-18.57.20:044][204]LogModuleManager: Shutting down and abandoning module MetasoundGenerator (374)
+[2025.04.07-18.57.20:044][204]LogModuleManager: Shutting down and abandoning module MetasoundGraphCore (372)
+[2025.04.07-18.57.20:044][204]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (370)
+[2025.04.07-18.57.20:044][204]LogModuleManager: Shutting down and abandoning module AudioAnalyzer (369)
+[2025.04.07-18.57.20:044][204]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (366)
+[2025.04.07-18.57.20:045][204]LogModuleManager: Shutting down and abandoning module SignalProcessing (365)
+[2025.04.07-18.57.20:046][204]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (362)
+[2025.04.07-18.57.20:046][204]LogModuleManager: Shutting down and abandoning module CableComponent (360)
+[2025.04.07-18.57.20:046][204]LogModuleManager: Shutting down and abandoning module ImgMediaEngine (358)
+[2025.04.07-18.57.20:046][204]LogModuleManager: Shutting down and abandoning module InterchangePipelines (356)
+[2025.04.07-18.57.20:046][204]LogModuleManager: Shutting down and abandoning module InterchangeImport (354)
+[2025.04.07-18.57.20:046][204]LogModuleManager: Shutting down and abandoning module InterchangeFactoryNodes (352)
+[2025.04.07-18.57.20:046][204]LogModuleManager: Shutting down and abandoning module InterchangeNodes (350)
+[2025.04.07-18.57.20:046][204]LogModuleManager: Shutting down and abandoning module TraceDataFiltering (348)
+[2025.04.07-18.57.20:046][204]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (346)
+[2025.04.07-18.57.20:046][204]LogModuleManager: Shutting down and abandoning module AnimationSharing (344)
+[2025.04.07-18.57.20:046][204]LogModuleManager: Shutting down and abandoning module IKRigDeveloper (342)
+[2025.04.07-18.57.20:046][204]LogModuleManager: Shutting down and abandoning module IKRig (340)
+[2025.04.07-18.57.20:046][204]LogModuleManager: Shutting down and abandoning module AnimationData (338)
+[2025.04.07-18.57.20:046][204]LogModuleManager: Shutting down and abandoning module ControlRigDeveloper (336)
+[2025.04.07-18.57.20:046][204]LogModuleManager: Shutting down and abandoning module ControlRig (334)
+[2025.04.07-18.57.20:046][204]LogModuleManager: Shutting down and abandoning module Constraints (333)
+[2025.04.07-18.57.20:046][204]LogModuleManager: Shutting down and abandoning module LevelSequence (331)
+[2025.04.07-18.57.20:046][204]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (328)
+[2025.04.07-18.57.20:047][204]LogModuleManager: Shutting down and abandoning module InputBlueprintNodes (326)
+[2025.04.07-18.57.20:047][204]LogModuleManager: Shutting down and abandoning module BlueprintGraph (325)
+[2025.04.07-18.57.20:047][204]LogModuleManager: Shutting down and abandoning module EnhancedInput (322)
+[2025.04.07-18.57.20:047][204]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (320)
+[2025.04.07-18.57.20:077][204]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (318)
+[2025.04.07-18.57.20:077][204]LogModuleManager: Shutting down and abandoning module AndroidFileServer (316)
+[2025.04.07-18.57.20:077][204]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (314)
+[2025.04.07-18.57.20:077][204]LogModuleManager: Shutting down and abandoning module PacketHandler (312)
+[2025.04.07-18.57.20:077][204]LogModuleManager: Shutting down and abandoning module WorldPartitionEditor (310)
+[2025.04.07-18.57.20:080][204]LogModuleManager: Shutting down and abandoning module AnimGraph (308)
+[2025.04.07-18.57.20:080][204]LogModuleManager: Shutting down and abandoning module TimeManagement (306)
+[2025.04.07-18.57.20:080][204]LogModuleManager: Shutting down and abandoning module AnimationDataController (304)
+[2025.04.07-18.57.20:080][204]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (302)
+[2025.04.07-18.57.20:080][204]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (300)
+[2025.04.07-18.57.20:080][204]LogModuleManager: Shutting down and abandoning module MediaAssets (298)
+[2025.04.07-18.57.20:080][204]LogModuleManager: Shutting down and abandoning module Overlay (296)
+[2025.04.07-18.57.20:080][204]LogModuleManager: Shutting down and abandoning module OverlayEditor (295)
+[2025.04.07-18.57.20:080][204]LogModuleManager: Shutting down and abandoning module VREditor (292)
+[2025.04.07-18.57.20:080][204]LogModuleManager: Shutting down and abandoning module StringTableEditor (290)
+[2025.04.07-18.57.20:081][204]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (288)
+[2025.04.07-18.57.20:081][204]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (286)
+[2025.04.07-18.57.20:082][204]LogModuleManager: Shutting down and abandoning module FunctionalTesting (284)
+[2025.04.07-18.57.20:082][204]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (282)
+[2025.04.07-18.57.20:083][204]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (281)
+[2025.04.07-18.57.20:083][204]LogModuleManager: Shutting down and abandoning module ScriptableEditorWidgets (278)
+[2025.04.07-18.57.20:083][204]LogModuleManager: Shutting down and abandoning module UMG (276)
+[2025.04.07-18.57.20:083][204]LogModuleManager: Shutting down and abandoning module UMGEditor (275)
+[2025.04.07-18.57.20:084][204]LogModuleManager: Shutting down and abandoning module EditorStyle (270)
+[2025.04.07-18.57.20:084][204]LogModuleManager: Shutting down and abandoning module SlateReflector (268)
+[2025.04.07-18.57.20:086][204]LogModuleManager: Shutting down and abandoning module Slate (266)
+[2025.04.07-18.57.20:086][204]LogModuleManager: Shutting down and abandoning module SlateCore (264)
+[2025.04.07-18.57.20:089][204]LogModuleManager: Shutting down and abandoning module SubobjectDataInterface (262)
+[2025.04.07-18.57.20:089][204]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (260)
+[2025.04.07-18.57.20:089][204]LogModuleManager: Shutting down and abandoning module UnrealEd (258)
+[2025.04.07-18.57.20:089][204]LogModuleManager: Shutting down and abandoning module MRMesh (256)
+[2025.04.07-18.57.20:089][204]LogModuleManager: Shutting down and abandoning module Messaging (254)
+[2025.04.07-18.57.20:089][204]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (252)
+[2025.04.07-18.57.20:089][204]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (250)
+[2025.04.07-18.57.20:089][204]LogModuleManager: Shutting down and abandoning module LiveCoding (248)
+[2025.04.07-18.57.20:102][204]LogModuleManager: Shutting down and abandoning module Networking (246)
+[2025.04.07-18.57.20:102][204]LogModuleManager: Shutting down and abandoning module Core (244)
+[2025.04.07-18.57.20:102][204]LogModuleManager: Shutting down and abandoning module AssetDefinition (242)
+[2025.04.07-18.57.20:102][204]LogModuleManager: Shutting down and abandoning module MovieSceneTools (240)
+[2025.04.07-18.57.20:103][204]LogModuleManager: Shutting down and abandoning module CurveEditor (239)
+[2025.04.07-18.57.20:103][204]LogModuleManager: Shutting down and abandoning module Sequencer (237)
+[2025.04.07-18.57.20:103][204]LogModuleManager: Shutting down and abandoning module KismetCompiler (234)
+[2025.04.07-18.57.20:103][204]LogModuleManager: Shutting down and abandoning module MeshBuilder (232)
+[2025.04.07-18.57.20:103][204]LogModuleManager: Shutting down and abandoning module NaniteBuilder (230)
+[2025.04.07-18.57.20:103][204]LogModuleManager: Shutting down and abandoning module MeshUtilities (228)
+[2025.04.07-18.57.20:104][204]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (227)
+[2025.04.07-18.57.20:104][204]LogModuleManager: Shutting down and abandoning module StaticMeshDescription (226)
+[2025.04.07-18.57.20:104][204]LogModuleManager: Shutting down and abandoning module GeometryProcessingInterfaces (225)
+[2025.04.07-18.57.20:104][204]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (222)
+[2025.04.07-18.57.20:104][204]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (221)
+[2025.04.07-18.57.20:104][204]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (219)
+[2025.04.07-18.57.20:104][204]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (217)
+[2025.04.07-18.57.20:107][204]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (215)
+[2025.04.07-18.57.20:107][204]LogModuleManager: Shutting down and abandoning module MaterialBaking (211)
+[2025.04.07-18.57.20:108][204]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (208)
+[2025.04.07-18.57.20:119][204]LogModuleManager: Shutting down and abandoning module TelemetryUtils (205)
+[2025.04.07-18.57.20:120][204]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (202)
+[2025.04.07-18.57.20:120][204]LogModuleManager: Shutting down and abandoning module ShaderPreprocessor (200)
+[2025.04.07-18.57.20:120][204]LogModuleManager: Shutting down and abandoning module DerivedDataCache (198)
+[2025.04.07-18.57.20:126][204]LogModuleManager: Shutting down and abandoning module TargetPlatform (196)
+[2025.04.07-18.57.20:127][204]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (195)
+[2025.04.07-18.57.20:127][204]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (193)
+[2025.04.07-18.57.20:127][204]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (191)
+[2025.04.07-18.57.20:127][204]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (189)
+[2025.04.07-18.57.20:127][204]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (187)
+[2025.04.07-18.57.20:127][204]LogModuleManager: Shutting down and abandoning module AudioFormatBINK (185)
+[2025.04.07-18.57.20:127][204]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (183)
+[2025.04.07-18.57.20:127][204]LogModuleManager: Shutting down and abandoning module AudioFormatOGG (181)
+[2025.04.07-18.57.20:127][204]LogModuleManager: Shutting down and abandoning module AudioFormatOPUS (179)
+[2025.04.07-18.57.20:128][204]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (177)
+[2025.04.07-18.57.20:128][204]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (175)
+[2025.04.07-18.57.20:128][204]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (173)
+[2025.04.07-18.57.20:128][204]LogModuleManager: Shutting down and abandoning module LinuxArm64TargetPlatform (171)
+[2025.04.07-18.57.20:128][204]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (169)
+[2025.04.07-18.57.20:128][204]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (167)
+[2025.04.07-18.57.20:128][204]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (165)
+[2025.04.07-18.57.20:128][204]LogModuleManager: Shutting down and abandoning module TextureFormat (163)
+[2025.04.07-18.57.20:128][204]LogModuleManager: Shutting down and abandoning module ImageWrapper (162)
+[2025.04.07-18.57.20:128][204]LogModuleManager: Shutting down and abandoning module TextureFormatOodle (160)
+[2025.04.07-18.57.20:128][204]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (158)
+[2025.04.07-18.57.20:128][204]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (156)
+[2025.04.07-18.57.20:128][204]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (154)
+[2025.04.07-18.57.20:128][204]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (152)
+[2025.04.07-18.57.20:129][204]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (150)
+[2025.04.07-18.57.20:129][204]LogModuleManager: Shutting down and abandoning module TurnkeySupport (147)
+[2025.04.07-18.57.20:129][204]LogModuleManager: Shutting down and abandoning module InputCore (144)
+[2025.04.07-18.57.20:129][204]LogModuleManager: Shutting down and abandoning module Settings (142)
+[2025.04.07-18.57.20:129][204]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (140)
+[2025.04.07-18.57.20:130][204]LogModuleManager: Shutting down and abandoning module ChaosSolverEngine (138)
+[2025.04.07-18.57.20:130][204]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (137)
+[2025.04.07-18.57.20:130][204]LogModuleManager: Shutting down and abandoning module Chaos (134)
+[2025.04.07-18.57.20:130][204]LogModuleManager: Shutting down and abandoning module GeometryCore (133)
+[2025.04.07-18.57.20:130][204]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (130)
+[2025.04.07-18.57.20:130][204]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (129)
+[2025.04.07-18.57.20:130][204]LogModuleManager: Shutting down and abandoning module AVEncoder (128)
+[2025.04.07-18.57.20:131][204]LogModuleManager: Shutting down and abandoning module D3D12RHI (124)
+[2025.04.07-18.57.20:131][204]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (122)
+[2025.04.07-18.57.20:131][204]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (120)
+[2025.04.07-18.57.20:131][204]LogModuleManager: Shutting down and abandoning module OnlineSubsystemUtils (118)
+[2025.04.07-18.57.20:131][204]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (116)
+[2025.04.07-18.57.20:133][204]LogModuleManager: Shutting down and abandoning module XMPP (111)
+[2025.04.07-18.57.20:136][204]LogModuleManager: Shutting down and abandoning module WebSockets (110)
+[2025.04.07-18.57.20:156][204]LogModuleManager: Shutting down and abandoning module HTTP (107)
+[2025.04.07-18.57.20:156][204]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.04.07-18.57.20:156][204]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B338AC8CB-4A81-345A-1B1D-CA8D466903F7%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=bf805ff34971a122feb71d9619a200d8%7C7a484063dfa74663a8b586dab2361ca1%7C4c6b333e-22b9-4028-a240-2e4113a21f04&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2025.04.07-18.57.20:165][204]LogModuleManager: Shutting down and abandoning module SSL (106)
+[2025.04.07-18.57.20:168][204]LogModuleManager: Shutting down and abandoning module OnlineServicesCommonEngineUtils (102)
+[2025.04.07-18.57.20:168][204]LogModuleManager: Shutting down and abandoning module OnlineServicesCommon (100)
+[2025.04.07-18.57.20:168][204]LogModuleManager: Shutting down and abandoning module OnlineServicesInterface (98)
+[2025.04.07-18.57.20:168][204]LogModuleManager: Shutting down and abandoning module WindowsDeviceProfileSelector (96)
+[2025.04.07-18.57.20:168][204]LogModuleManager: Shutting down and abandoning module ChaosCloth (94)
+[2025.04.07-18.57.20:169][204]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (92)
+[2025.04.07-18.57.20:169][204]LogModuleManager: Shutting down and abandoning module NiagaraShader (90)
+[2025.04.07-18.57.20:169][204]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (88)
+[2025.04.07-18.57.20:169][204]LogModuleManager: Shutting down and abandoning module ChunkDownloader (86)
+[2025.04.07-18.57.20:169][204]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (84)
+[2025.04.07-18.57.20:169][204]LogModuleManager: Shutting down and abandoning module WmfMedia (82)
+[2025.04.07-18.57.20:173][204]LogModuleManager: Shutting down and abandoning module Media (81)
+[2025.04.07-18.57.20:175][204]LogModuleManager: Shutting down and abandoning module VariantManagerContent (78)
+[2025.04.07-18.57.20:175][204]LogModuleManager: Shutting down and abandoning module GLTFExporter (76)
+[2025.04.07-18.57.20:175][204]LogModuleManager: Shutting down and abandoning module DatasmithContent (74)
+[2025.04.07-18.57.20:176][204]LogModuleManager: Shutting down and abandoning module PixWinPlugin (72)
+[2025.04.07-18.57.20:176][204]LogModuleManager: Shutting down and abandoning module RenderDocPlugin (70)
+[2025.04.07-18.57.20:176][204]RenderDocPlugin: plugin has been unloaded.
+[2025.04.07-18.57.20:176][204]LogModuleManager: Shutting down and abandoning module ACLPlugin (68)
+[2025.04.07-18.57.20:176][204]LogModuleManager: Shutting down and abandoning module AISupportModule (66)
+[2025.04.07-18.57.20:176][204]LogModuleManager: Shutting down and abandoning module DesktopPlatform (64)
+[2025.04.07-18.57.20:176][204]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (62)
+[2025.04.07-18.57.20:177][204]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (60)
+[2025.04.07-18.57.20:177][204]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (58)
+[2025.04.07-18.57.20:177][204]LogModuleManager: Shutting down and abandoning module PlatformCrypto (56)
+[2025.04.07-18.57.20:177][204]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (54)
+[2025.04.07-18.57.20:178][204]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (52)
+[2025.04.07-18.57.20:179][204]LogModuleManager: Shutting down and abandoning module SourceControl (51)
+[2025.04.07-18.57.20:180][204]LogModuleManager: Shutting down and abandoning module XGEController (48)
+[2025.04.07-18.57.20:180][204]LogModuleManager: Shutting down and abandoning module FastBuildController (46)
+[2025.04.07-18.57.20:181][204]LogModuleManager: Shutting down and abandoning module IoStoreOnDemand (44)
+[2025.04.07-18.57.20:181][204]LogModuleManager: Shutting down and abandoning module AnimationModifiers (42)
+[2025.04.07-18.57.20:181][204]LogModuleManager: Shutting down and abandoning module AudioEditor (40)
+[2025.04.07-18.57.20:183][204]LogModuleManager: Shutting down and abandoning module PropertyEditor (39)
+[2025.04.07-18.57.20:183][204]LogModuleManager: Shutting down and abandoning module Virtualization (36)
+[2025.04.07-18.57.20:183][204]LogModuleManager: Shutting down and abandoning module MessageLog (35)
+[2025.04.07-18.57.20:183][204]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2025.04.07-18.57.20:183][204]LogModuleManager: Shutting down and abandoning module OpenColorIOWrapper (31)
+[2025.04.07-18.57.20:183][204]LogModuleManager: Shutting down and abandoning module RenderCore (28)
+[2025.04.07-18.57.20:183][204]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2025.04.07-18.57.20:184][204]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2025.04.07-18.57.20:187][204]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (22)
+[2025.04.07-18.57.20:187][204]LogModuleManager: Shutting down and abandoning module Renderer (20)
+[2025.04.07-18.57.20:188][204]LogModuleManager: Shutting down and abandoning module Engine (18)
+[2025.04.07-18.57.20:188][204]LogModuleManager: Shutting down and abandoning module CoreUObject (16)
+[2025.04.07-18.57.20:188][204]LogModuleManager: Shutting down and abandoning module SandboxFile (14)
+[2025.04.07-18.57.20:188][204]LogModuleManager: Shutting down and abandoning module PakFile (12)
+[2025.04.07-18.57.20:188][204]LogPakFile: Destroying PakPlatformFile
+[2025.04.07-18.57.20:189][204]LogModuleManager: Shutting down and abandoning module RSA (11)
+[2025.04.07-18.57.20:189][204]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2025.04.07-18.57.20:189][204]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2025.04.07-18.57.20:189][204]LogModuleManager: Shutting down and abandoning module CookOnTheFly (4)
+[2025.04.07-18.57.20:189][204]LogModuleManager: Shutting down and abandoning module StorageServerClient (2)
+[2025.04.07-18.57.20:486][204]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.04.07-18.57.20:521][204]LogExit: Exiting.
+[2025.04.07-18.57.20:539][204]Log file closed, 04/07/25 12:57:20
