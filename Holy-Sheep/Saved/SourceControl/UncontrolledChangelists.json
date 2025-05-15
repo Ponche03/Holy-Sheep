@@ -5,6 +5,15 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"D:/Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/WB_Defeat.uasset",
+				"D:/Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/WB_Tie.uasset",
+				"D:/Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/WB_Victory.uasset",
+				"D:/Holy-Sheep/Holy-Sheep/Content/HolySheep/Input/Actions/IA_Pause.uasset",
+				"D:/Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/WB_Pause.uasset",
+				"D:/Holy-Sheep/Holy-Sheep/Content/HolySheep/Characters/Player/BP_Player.uasset",
+				"D:/Holy-Sheep/Holy-Sheep/Content/HolySheep/GameMode/GS_MatchState.uasset",
+				"D:/Holy-Sheep/Holy-Sheep/Content/HolySheep/Input/IMC_Player.uasset",
+				"D:/Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/WB_OptionsMenu.uasset",
 				"D:/HEBER PROYECTS/Holy Sheep/Holy-Sheep/Holy-Sheep/Content/Splash/EdSplash.uasset",
 				"D:/HEBER PROYECTS/Holy Sheep/Holy-Sheep/Holy-Sheep/Content/Splash/Splash.uasset",
 				"D:/HEBER PROYECTS/Holy Sheep/Holy-Sheep/Holy-Sheep/Content/Levels/BattleSheepMainMenu.umap"
