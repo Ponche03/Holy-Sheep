@@ -5,6 +5,23 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"D:/HEBER PROYECTS/Holy Sheep/Holy-Sheep/Holy-Sheep/Content/Splash/EdSplash.uasset",
+				"D:/HEBER PROYECTS/Holy Sheep/Holy-Sheep/Holy-Sheep/Content/Splash/Splash.uasset",
+				"D:/HEBER PROYECTS/Holy Sheep/Holy-Sheep/Holy-Sheep/Content/Levels/BattleSheepMainMenu.umap",
+				"D:/HEBER PROYECTS/Holy Sheep/Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/WB_Pause.uasset",
+				"D:/HEBER PROYECTS/Holy Sheep/Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/WB_OptionsMenu.uasset",
+				"D:/HEBER PROYECTS/Holy Sheep/Holy-Sheep/Holy-Sheep/Content/HolySheep/Characters/Player/ABP_NewLiliana.uasset",
+				"D:/HEBER PROYECTS/Holy Sheep/Holy-Sheep/Holy-Sheep/Content/HolySheep/Characters/Player/BS_WalkRunRealLiliana.uasset",
+				"D:/HEBER PROYECTS/Holy Sheep/Holy-Sheep/Holy-Sheep/Content/HolySheep/Characters/Player/BS_WalkRunReal.uasset",
+				"D:/HEBER PROYECTS/Holy Sheep/Holy-Sheep/Holy-Sheep/Content/HolySheep/Characters/Player/BS_WalkRunRealGregor.uasset",
+				"D:/HEBER PROYECTS/Holy Sheep/Holy-Sheep/Holy-Sheep/Content/HolySheep/Characters/Player/ABP_NewGregor.uasset",
+				"D:/HEBER PROYECTS/Holy Sheep/Holy-Sheep/Holy-Sheep/Content/HolySheep/Characters/Player/BP_Player.uasset",
+				"D:/HEBER PROYECTS/Holy Sheep/Holy-Sheep/Holy-Sheep/Content/HolySheep/Characters/Anims/Liliana/AnimationLilianaNew/L_Secondary_mixamo_com.uasset",
+				"D:/HEBER PROYECTS/Holy Sheep/Holy-Sheep/Holy-Sheep/Content/HolySheep/Characters/Anims/Liliana/AnimationLilianaNew/L_Gunplay_mixamo_com.uasset",
+				"D:/HEBER PROYECTS/Holy Sheep/Holy-Sheep/Holy-Sheep/Content/HolySheep/Characters/Anims/Liliana/AnimationLilianaNew/L_Knockout_mixamo_com_Montage.uasset",
+				"D:/HEBER PROYECTS/Holy Sheep/Holy-Sheep/Holy-Sheep/Content/Levels/BattleSheep.umap",
+				"D:/HEBER PROYECTS/Holy Sheep/Holy-Sheep/Holy-Sheep/Content/HolySheep/Characters/Anims/Liliana/L_Gunplay_mixamo_com.uasset",
+				"D:/HEBER PROYECTS/Holy Sheep/Holy-Sheep/Holy-Sheep/Content/HolySheep/Characters/Anims/Liliana/Liliana_con_rig_Skeleton.uasset",
 				"D:/Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/WB_Defeat.uasset",
 				"D:/Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/WB_Tie.uasset",
 				"D:/Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/WB_Victory.uasset",
@@ -14,10 +31,7 @@
 				"D:/Holy-Sheep/Holy-Sheep/Content/HolySheep/GameMode/GS_MatchState.uasset",
 				"D:/Holy-Sheep/Holy-Sheep/Content/HolySheep/Input/IMC_Player.uasset",
 				"D:/Holy-Sheep/Holy-Sheep/Content/HolySheep/UI/WB_OptionsMenu.uasset",
-				"D:/Holy-Sheep/Holy-Sheep/Content/Levels/BattleSheepMainMenu.umap",
-				"D:/HEBER PROYECTS/Holy Sheep/Holy-Sheep/Holy-Sheep/Content/Splash/EdSplash.uasset",
-				"D:/HEBER PROYECTS/Holy Sheep/Holy-Sheep/Holy-Sheep/Content/Splash/Splash.uasset",
-				"D:/HEBER PROYECTS/Holy Sheep/Holy-Sheep/Holy-Sheep/Content/Levels/BattleSheepMainMenu.umap"
+				"D:/Holy-Sheep/Holy-Sheep/Content/Levels/BattleSheepMainMenu.umap"
 			]
 		}
 	]
